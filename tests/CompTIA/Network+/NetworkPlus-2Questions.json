@@ -1,0 +1,37 @@
+{
+  "name": "Network+ Basics",
+  "questionCount": 3,
+  "timeLimit": 3,
+  "questions": [
+    {
+      "question": "What is the primary function of DNS?",
+      "options": [
+        "To assign IP addresses to devices",
+        "To translate domain names to IP addresses",
+        "To encrypt network traffic",
+        "To filter unwanted traffic"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which port is commonly used for HTTPS traffic?",
+      "options": [
+        "21",
+        "22",
+        "80",
+        "443"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does CIDR stand for?",
+      "options": [
+        "Classless Inter-Domain Routing",
+        "Connection Identifier Domain Registry",
+        "Central Internet Data Repository",
+        "Concurrent IP Data Relay"
+      ],
+      "answer": 0
+    }
+  ]
+}
