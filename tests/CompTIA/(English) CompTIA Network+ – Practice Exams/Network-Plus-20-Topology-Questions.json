@@ -1,0 +1,227 @@
+{
+  "name": "Network+ Topology Questions",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "Network Topology",
+      "question": "A company is designing a network for a new manufacturing facility where devices are arranged in a circular pattern on the factory floor. Which physical topology would be MOST appropriate for this environment?",
+      "options": [
+        "Star topology",
+        "Bus topology",
+        "Ring topology",
+        "Mesh topology"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network administrator is designing a network for a small office where all devices need to connect to a central point. Which physical topology would be MOST appropriate?",
+      "options": [
+        "Star topology",
+        "Bus topology",
+        "Ring topology",
+        "Full mesh topology"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A company needs to implement a network topology that provides the highest level of redundancy and fault tolerance. Which topology would be BEST suited for this requirement?",
+      "options": [
+        "Star topology",
+        "Bus topology",
+        "Ring topology",
+        "Full mesh topology"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network engineer is designing a WAN solution to connect multiple branch offices to a central headquarters. Budget constraints limit the number of connections that can be implemented. Which topology would be MOST cost-effective while still providing some redundancy?",
+      "options": [
+        "Full mesh topology",
+        "Partial mesh topology",
+        "Point-to-point topology",
+        "Bus topology"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A school is implementing a network in a computer lab where 30 computers will be connected using a single cable. If one computer's network connection fails, all other computers should still operate normally. Which topology would be MOST appropriate?",
+      "options": [
+        "Bus topology",
+        "Star topology",
+        "Ring topology",
+        "Hybrid topology"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network administrator is designing a data center network that needs to support high-speed connections between server racks with minimal latency. Which topology would be MOST efficient for this purpose?",
+      "options": [
+        "Bus topology",
+        "Star topology",
+        "Leaf-spine topology",
+        "Ring topology"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A company has implemented a star topology for their main office network. What is the MOST significant disadvantage of this topology?",
+      "options": [
+        "Limited scalability",
+        "Single point of failure at the central device",
+        "High cable costs",
+        "Difficulty in troubleshooting"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network technician is investigating a network issue where a single device failure has caused the entire network to stop functioning. Which topology is MOST likely being used?",
+      "options": [
+        "Ring topology without token passing",
+        "Bus topology",
+        "Mesh topology",
+        "Star topology with redundant central devices"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A telecommunications company is designing a fiber optic network to connect multiple cities. The design needs to ensure that if any single connection between cities fails, all cities can still communicate. Which topology would be MOST appropriate?",
+      "options": [
+        "Star topology with a central hub city",
+        "Bus topology with all cities on a single fiber line",
+        "Ring topology connecting all cities in a circle",
+        "Partial mesh topology with strategic redundant connections"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network architect is designing a logical topology for a company's main campus. The design needs to segment traffic between departments while allowing controlled inter-departmental communication. Which logical topology would be MOST appropriate?",
+      "options": [
+        "Flat network with a single broadcast domain",
+        "Hierarchical topology with core, distribution, and access layers",
+        "Bus topology with all devices in a single collision domain",
+        "Ring topology with token passing between departments"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A hospital is implementing a network for critical patient monitoring systems. The network must continue to function even if multiple network links or devices fail. Which topology would provide the HIGHEST level of redundancy?",
+      "options": [
+        "Star topology with a backup central switch",
+        "Dual ring topology",
+        "Full mesh topology",
+        "Extended star topology"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A company is implementing a wireless network in their office building. What is the typical logical topology of a wireless network?",
+      "options": [
+        "Star topology",
+        "Ring topology",
+        "Bus topology",
+        "Mesh topology"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network administrator is designing a network for a large university campus with multiple buildings. Which network topology model would be MOST appropriate for this scenario?",
+      "options": [
+        "Single-tier flat model",
+        "Two-tier collapsed core model",
+        "Three-tier hierarchical model",
+        "Peer-to-peer model"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A software development company has implemented a 10 Gigabit Ethernet network using a traditional three-tier architecture. During peak hours, developers experience high latency when accessing resources between different departments. Which topology change would MOST effectively address this issue?",
+      "options": [
+        "Change from three-tier to leaf-spine topology",
+        "Implement a full mesh topology between all departments",
+        "Switch to a ring topology for better bandwidth sharing",
+        "Convert to a bus topology to reduce switch hops"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network engineer is designing a redundant topology for a company's Internet connectivity. The company has two ISPs and wants to ensure continuous operation if one ISP connection fails. Which topology design would be MOST appropriate?",
+      "options": [
+        "Single router with dual WAN interfaces connected to both ISPs",
+        "Two separate routers, each connected to a different ISP, with a failover mechanism",
+        "A ring topology connecting both ISPs through the company's edge routers",
+        "A full mesh between the company's core switches and both ISP connections"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A small business is implementing a network with limited budget and only five workstations. All workstations need to communicate with each other and share a printer. Which topology would be MOST cost-effective?",
+      "options": [
+        "Star topology with a central switch",
+        "Full mesh topology",
+        "Ring topology",
+        "Bus topology"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network administrator is implementing a Software-Defined Network (SDN) in a data center. Which topological aspect is MOST significantly changed when moving from traditional networking to SDN?",
+      "options": [
+        "Physical cabling requirements",
+        "Number of required switches",
+        "Separation of control plane from data plane",
+        "Maximum size of collision domains"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network technician is troubleshooting a connectivity issue in a physically star-shaped network. All devices connect to a central switch, but the technician notices that a failure of a single end device sometimes affects other devices' connectivity. Which logical topology is MOST likely being used?",
+      "options": [
+        "Logical bus implemented on a physical star",
+        "Logical ring implemented on a physical star",
+        "Logical mesh implemented on a physical star",
+        "Logical hierarchical implemented on a physical star"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A company with multiple branch offices wants to implement a WAN topology where each branch office connects directly to headquarters but not to other branches. Which topology is being described?",
+      "options": [
+        "Full mesh topology",
+        "Partial mesh topology",
+        "Hub-and-spoke topology",
+        "Ring topology"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Network Topology",
+      "question": "A network engineer is designing a campus network with a three-tier hierarchical model. Which layer is responsible for policy enforcement, access control, and establishing QoS boundaries?",
+      "options": [
+        "Core layer",
+        "Distribution layer",
+        "Access layer",
+        "Transport layer"
+      ],
+      "answer": 1
+    }
+  ]
+}
