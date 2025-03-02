@@ -1,0 +1,1008 @@
+{
+  "name": "Network+ Certification Practice Exam",
+  "questionCount": 90,
+  "timeLimit": 90,
+  "questions": [
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A network technician is installing a new wireless network in a three-story office building. Users report strong signal on the first floor but weak or no signal on the third floor. Which solution would BEST resolve this issue?",
+      "options": [
+        "Install a wireless repeater on the second floor",
+        "Replace the current wireless router with a model that supports 5GHz",
+        "Implement a mesh network with access points on each floor",
+        "Change the wireless channel from 6 to 11"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A technician needs to connect two buildings that are 200 meters apart. The buildings need a reliable 10 Gbps connection. Which of the following is the MOST appropriate solution?",
+      "options": [
+        "Cat6a UTP cabling",
+        "Single-mode fiber optic cabling",
+        "Wireless bridge using 5GHz frequency",
+        "Coaxial cable with amplifiers"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A network administrator is troubleshooting connectivity issues with a newly installed network printer. The printer has been assigned a static IP address and is connected to the network switch, but no computers can print to it. Using a laptop directly connected to the printer with an Ethernet cable works fine. What is the MOST likely cause of the issue?",
+      "options": [
+        "The printer firmware needs to be updated",
+        "The static IP address conflicts with another device on the network",
+        "The printer drivers are not installed on the computers",
+        "The switch port is configured for the wrong VLAN"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A company is setting up a new warehouse with inventory tracking devices that require wireless connectivity. The warehouse has metal shelving units throughout and operates machinery that creates electromagnetic interference. Which wireless technology should be implemented to provide the MOST reliable connectivity?",
+      "options": [
+        "802.11n with 2.4GHz frequency",
+        "802.11ac with 5GHz frequency",
+        "802.11ax with multiple access points and frequency bands",
+        "Bluetooth 5.0 mesh network"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A network technician is installing a high-speed wired connection between two floors of an office building. The distance is approximately 80 meters. There is significant electrical interference from nearby machinery. Which cable type would be MOST appropriate for this installation?",
+      "options": [
+        "Cat6 UTP",
+        "Cat6a STP",
+        "Multimode fiber",
+        "RG-6 coaxial"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A small office has implemented a wireless network. Users report that the connection drops frequently when more than 15 people are connected simultaneously. The wireless router supports 802.11n and is centrally located. Which of the following is the MOST cost-effective solution?",
+      "options": [
+        "Upgrade to an 802.11ax router with OFDMA support",
+        "Add a second wireless access point on a different channel",
+        "Switch all clients to 5GHz frequency",
+        "Implement QoS to prioritize important traffic"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A network administrator is connecting a new branch office to the corporate headquarters. The distance between locations is 5 kilometers. The connection needs to support at least 1 Gbps throughput. Which of the following would be the MOST appropriate solution?",
+      "options": [
+        "Microwave point-to-point link",
+        "Single-mode fiber connection",
+        "T1 leased line with channel bonding",
+        "5G cellular connection with business SLA"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A network technician is installing a new switch in a manufacturing facility. The environment has high levels of electromagnetic interference. The switch will support security cameras and industrial control systems. Which of the following should be used to connect the switch to the existing network?",
+      "options": [
+        "Cat5e UTP cabling",
+        "Cat7 STP cabling",
+        "Fiber optic cabling",
+        "Coaxial cabling"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A company is deploying IoT sensors throughout their warehouse. The sensors will be battery-powered and need to transmit small amounts of data periodically. Which wireless technology would be MOST appropriate for this deployment?",
+      "options": [
+        "Wi-Fi 6 (802.11ax)",
+        "Bluetooth 5.0",
+        "LoRaWAN",
+        "5G cellular"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A network technician needs to connect multiple buildings on a campus that are within line of sight and less than 500 meters apart. The connection must provide at least 500 Mbps throughput and be secure. Which solution would be MOST appropriate?",
+      "options": [
+        "60GHz point-to-point wireless bridge",
+        "Multimode fiber optic links",
+        "Ethernet over power lines",
+        "4G LTE cellular connections"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A small business owner is setting up a network in their shop. The building has thick concrete walls, and wireless coverage needs to reach all areas. The business has 15 employees and various IoT devices. Which wireless access point configuration would provide the BEST coverage?",
+      "options": [
+        "Single dual-band access point with high-gain antennas",
+        "Mesh network with three access points strategically placed",
+        "Two access points with directional antennas",
+        "One access point with a wireless signal booster"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "A company is deploying a new point-of-sale system that requires wired network connectivity. The store has an existing wireless network but needs to add wired connections to 20 registers spread throughout the retail floor. The building has a drop ceiling. What is the MOST efficient way to deploy this network?",
+      "options": [
+        "Run individual Cat6 cables from the server room to each register",
+        "Deploy wireless-to-wired adapters at each register location",
+        "Install intermediate switches in strategic locations and run shorter cables to nearby registers",
+        "Use powerline adapters to avoid running new cables"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Establish network connectivity by deploying wired and wireless devices",
+      "question": "An IT administrator is setting up a guest wireless network in a conference center. The requirements include supporting up to 200 simultaneous connections, providing adequate bandwidth for basic web browsing, and keeping guest traffic separate from corporate traffic. Which configuration would BEST meet these requirements?",
+      "options": [
+        "Single 802.11ac access point with guest SSID on the same VLAN as corporate network",
+        "Multiple 802.11ax access points with guest traffic on a separate VLAN and throttled bandwidth",
+        "Dual-band 802.11n access points with MAC filtering for guest devices",
+        "802.11g access points dedicated solely to guest traffic"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A network administrator is documenting a newly implemented network. Which of the following should be included in the physical network diagram?",
+      "options": [
+        "Domain user names and passwords",
+        "Firewall rules and ACLs",
+        "Device locations, model numbers, and cable runs",
+        "IP addressing scheme and subnet masks"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "During an audit, a company discovers their network documentation is outdated. Several critical devices were added over the past year without being documented. Which of the following should be implemented to prevent this issue in the future?",
+      "options": [
+        "Weekly network scans to automatically update documentation",
+        "A change management process requiring documentation updates for all network changes",
+        "Quarterly manual inventory of all network devices",
+        "Assignment of documentation responsibilities to specific network team members"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A network engineer needs to restore a router configuration after a hardware failure. The documentation team cannot locate the backup configuration file. Which of the following would have been the BEST practice to prevent this situation?",
+      "options": [
+        "Using an automated configuration backup tool that stores configs in a centralized repository",
+        "Having network engineers email configuration backups to themselves after changes",
+        "Printing hard copies of all configuration files and storing them in a binder",
+        "Using version control software on the local technician's computer"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A company is preparing for a compliance audit and needs to document all network security controls. Which of the following would be MOST important to include in this documentation?",
+      "options": [
+        "Network device usernames and passwords",
+        "Firewall rules, ACLs, and security policies",
+        "Employee training records on network usage",
+        "Network performance metrics over the past year"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A network technician is troubleshooting a connectivity issue and needs to identify which switch port a particular workstation is connected to. Which network documentation would be MOST helpful in this situation?",
+      "options": [
+        "Logical network diagram with IP addressing scheme",
+        "Network security policy",
+        "Physical port mapping document",
+        "Business continuity plan"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A company has multiple locations with independent networks. Management wants to standardize network documentation across all sites. Which of the following would be the MOST efficient approach?",
+      "options": [
+        "Have each site maintain their own documentation in whatever format works best for them",
+        "Create a centralized documentation repository with standardized templates and procedures",
+        "Outsource all documentation to a third-party provider",
+        "Implement automated network discovery tools without standardized documentation"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "During a network upgrade, a technician discovers that the IP addressing scheme is poorly organized, making it difficult to identify which subnets are used for different purposes. Which documentation should be created to address this issue?",
+      "options": [
+        "Physical network diagram",
+        "IP address management (IPAM) documentation",
+        "Network security policy",
+        "Backup and recovery procedures"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A network administrator is creating documentation for a new network implementation. Which of the following would be the MOST important to document for disaster recovery purposes?",
+      "options": [
+        "Vendor contact information",
+        "Device configurations and backup procedures",
+        "Network performance baselines",
+        "User account information"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "After a network outage, a post-incident review identifies that the recovery time was extended because technicians couldn't locate the correct cable connections in the server room. Which of the following would BEST address this issue?",
+      "options": [
+        "Labeling all cables and creating a cable management document",
+        "Installing color-coded cables for different network functions",
+        "Moving all servers to a cloud environment",
+        "Implementing redundant connections for all critical systems"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A company is implementing a new wireless network. Which of the following should be included in the network documentation to aid in future troubleshooting?",
+      "options": [
+        "Access point locations, SSIDs, channels, and coverage maps",
+        "Wireless user passwords and personal device information",
+        "The cost of each access point and installation labor",
+        "Detailed biographies of the installation technicians"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "During a security audit, a company is asked to provide documentation about their network segmentation strategy. Which of the following would BEST address this request?",
+      "options": [
+        "Physical network diagram showing device locations",
+        "Logical network diagram showing VLANs, subnets, and security zones",
+        "List of all network device models and firmware versions",
+        "Network performance metrics and bandwidth utilization reports"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A network administrator needs to document the process for adding new devices to the corporate network. Which type of documentation would be MOST appropriate for this purpose?",
+      "options": [
+        "Network topology diagram",
+        "Standard operating procedure (SOP)",
+        "Asset inventory list",
+        "Incident response plan"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand and maintain network documentation",
+      "question": "A company is implementing a new change management process for network changes. Which of the following would be MOST important to include in the documentation requirements?",
+      "options": [
+        "Detailed before and after configurations with verification steps",
+        "The specific time of day when changes should be implemented",
+        "The cost justification for each change",
+        "Personal contact information for all network administrators"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A company needs to implement a solution that will assign IP addresses automatically to devices joining the network. Which service should they implement?",
+      "options": [
+        "DNS",
+        "DHCP",
+        "RADIUS",
+        "NAT"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A company wants to ensure that only authorized users can connect to their wireless network. Which network service would BEST meet this requirement?",
+      "options": [
+        "DHCP",
+        "DNS",
+        "RADIUS",
+        "NTP"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A global organization needs to ensure that all network devices have synchronized time for accurate log correlation. Which service should they implement?",
+      "options": [
+        "SNMP",
+        "NTP",
+        "LDAP",
+        "SMTP"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A network administrator needs to allow internal clients with private IP addresses to access the internet. Which network service is MOST appropriate for this purpose?",
+      "options": [
+        "NAT",
+        "DNS",
+        "DHCP",
+        "SNMP"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A company wants to implement centralized authentication for all network devices and services. Which of the following would be MOST appropriate?",
+      "options": [
+        "TACACS+",
+        "DNS",
+        "DHCP",
+        "SNMP"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A network administrator needs to monitor network device performance and receive alerts when thresholds are exceeded. Which protocol would be MOST appropriate for this purpose?",
+      "options": [
+        "SMTP",
+        "SNMP",
+        "SSH",
+        "STP"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A company is implementing a voice over IP (VoIP) phone system. Which network service would help ensure consistent voice quality by prioritizing voice traffic over other types of traffic?",
+      "options": [
+        "NAT",
+        "DNS",
+        "QoS",
+        "NTP"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A network administrator needs to implement a service that will convert domain names to IP addresses for client requests. Which service should be implemented?",
+      "options": [
+        "DHCP",
+        "NAT",
+        "DNS",
+        "WINS"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A company wants to implement a solution that will cache frequently accessed web content to improve performance and reduce bandwidth usage. Which service would BEST meet this requirement?",
+      "options": [
+        "Web proxy server",
+        "DNS server",
+        "DHCP server",
+        "Email server"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A company needs to implement a service that will securely transfer files between their main office and branch locations. Which of the following would be MOST appropriate?",
+      "options": [
+        "Telnet",
+        "FTP",
+        "SFTP",
+        "HTTP"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A network administrator needs to implement a service that will prevent specific types of websites from being accessed by employees. Which of the following would BEST meet this requirement?",
+      "options": [
+        "Content filtering proxy",
+        "DHCP server",
+        "DNS server",
+        "Email server"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "A company wants to implement a service that will allow remote users to securely connect to the internal network over the internet. Which of the following would be MOST appropriate?",
+      "options": [
+        "NAT",
+        "VPN",
+        "DHCP",
+        "DNS"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand the purpose of network services",
+      "question": "An organization needs to implement a service that will distribute the load across multiple web servers to improve performance and availability. Which service would BEST meet this requirement?",
+      "options": [
+        "DNS round-robin",
+        "Load balancer",
+        "Web proxy",
+        "Content delivery network"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A company is migrating from a traditional data center to a cloud-based infrastructure. Which of the following would be the MOST important consideration for network connectivity?",
+      "options": [
+        "Increasing the number of physical switches",
+        "Implementing redundant internet connections with adequate bandwidth",
+        "Upgrading all workstations to the latest operating system",
+        "Replacing all copper cabling with fiber optic"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A network administrator is designing a virtual network in a hypervisor environment. Which of the following virtual network components would provide separation between different application environments?",
+      "options": [
+        "Virtual switches",
+        "Virtual NICs",
+        "Virtual LANs (VLANs)",
+        "Virtual routers"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A company is implementing a hybrid cloud solution. Which of the following would be the MOST secure way to connect the on-premises data center to the cloud provider?",
+      "options": [
+        "Internet-based VPN",
+        "Direct Connect or ExpressRoute private connection",
+        "Public internet with TLS encryption",
+        "IPsec tunnel over the internet"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "An organization is deploying a new application that requires high availability and fault tolerance. Which cloud deployment model would BEST meet these requirements?",
+      "options": [
+        "Single availability zone deployment",
+        "Multi-availability zone deployment within a single region",
+        "Multi-region deployment with load balancing",
+        "Edge computing deployment"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A network administrator is implementing network segmentation in a virtualized environment. Which of the following would provide the MOST effective segmentation?",
+      "options": [
+        "Using different physical NICs for each virtual network",
+        "Implementing micro-segmentation with virtual firewalls",
+        "Creating a single VLAN for all virtual machines",
+        "Using NAT for all virtual machine communication"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A company is migrating their applications to containers. Which networking model would be MOST appropriate for a container orchestration platform?",
+      "options": [
+        "Bridge networking",
+        "Host networking",
+        "Overlay networking",
+        "Macvlan networking"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A company is implementing software-defined networking (SDN) in their data center. Which of the following is a key benefit of this approach?",
+      "options": [
+        "Elimination of all physical networking equipment",
+        "Reduced power consumption by network devices",
+        "Centralized control and programmability of the network",
+        "Compatibility with legacy networking protocols only"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A network administrator needs to implement a solution that will provide east-west traffic isolation between application tiers in a data center. Which of the following would be MOST appropriate?",
+      "options": [
+        "Implementing ACLs on the core router",
+        "Using private VLANs on access switches",
+        "Deploying a web application firewall",
+        "Implementing microsegmentation with distributed firewalls"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A company is implementing a disaster recovery solution using a cloud provider. Which of the following would provide the LOWEST recovery time objective (RTO)?",
+      "options": [
+        "Backup and restore from cloud storage",
+        "Pilot light environment with core services running",
+        "Warm standby environment with scaled-down version of production",
+        "Multi-site active-active deployment"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A network engineer is designing a data center network that needs to support high-speed connections between server racks. Which topology would be MOST efficient for this purpose?",
+      "options": [
+        "Bus topology",
+        "Star topology",
+        "Leaf-spine topology",
+        "Ring topology"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A company is implementing a private cloud infrastructure. Which network virtualization technology would allow them to extend Layer 2 networks across their data center?",
+      "options": [
+        "MPLS",
+        "GRE",
+        "VXLAN",
+        "IPsec"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A network administrator needs to implement a solution that will provide traffic isolation between different tenants in a cloud environment. Which of the following would be MOST appropriate?",
+      "options": [
+        "VPN",
+        "Virtual Private Cloud (VPC)",
+        "Content Delivery Network (CDN)",
+        "Load Balancer"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Understand basic datacenter, cloud and virtual networking concepts",
+      "question": "A company is implementing a hybrid cloud solution that will span multiple cloud providers. Which of the following would be the MOST important consideration for this deployment?",
+      "options": [
+        "Using the same hypervisor across all environments",
+        "Implementing consistent identity and access management",
+        "Standardizing on a single operating system",
+        "Using identical hardware in all locations"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A network administrator notices that network performance degrades significantly during certain times of the day. Which tool would be MOST helpful in identifying the cause?",
+      "options": [
+        "Ping",
+        "Traceroute",
+        "Protocol analyzer",
+        "DNS lookup"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "Users report that accessing a specific application server is slower than usual. The network administrator wants to determine if the issue is related to network latency. Which tool would be MOST appropriate?",
+      "options": [
+        "ARP table lookup",
+        "ICMP echo requests (ping) with timing statistics",
+        "DNS query",
+        "Port scanner"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A network monitoring system generates an alert indicating high CPU utilization on a core switch. Which of the following could be the MOST likely cause?",
+      "options": [
+        "Broadcast storm",
+        "Invalid subnet mask",
+        "MAC address spoofing",
+        "Incorrect DNS settings"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A network administrator wants to create a baseline of normal network traffic patterns to help identify anomalies. Which of the following would be the MOST effective approach?",
+      "options": [
+        "Monitor network traffic for 24 hours on a weekend",
+        "Collect network statistics during peak hours only",
+        "Monitor network traffic over several weeks capturing various business cycles",
+        "Analyze traffic during a network outage"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A company is experiencing intermittent connectivity issues with their internet connection. The network administrator wants to monitor the connection quality over time. Which tool would be MOST appropriate?",
+      "options": [
+        "Packet sniffer",
+        "Network bandwidth tester",
+        "Port scanner",
+        "Network uptime monitor with continuous ping tests"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A network administrator notices that a switch port is showing excessive errors. Which of the following would be the MOST likely cause?",
+      "options": [
+        "Incorrect VLAN assignment",
+        "Damaged network cable or connector",
+        "Incorrect IP address configuration",
+        "Misconfigured DNS server"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "Users report that network performance degrades significantly every day at 2:00 PM. Which of the following would be the MOST effective first step in troubleshooting this issue?",
+      "options": [
+        "Replace all network switches",
+        "Increase internet bandwidth",
+        "Monitor network traffic patterns at the suspected time",
+        "Reboot all network devices at 1:55 PM"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A network administrator wants to identify the path that traffic takes to reach a specific destination and identify where latency occurs. Which tool would be MOST appropriate?",
+      "options": [
+        "Ping",
+        "Traceroute",
+        "ARP",
+        "Netstat"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A company is experiencing slow network performance that appears to be affecting all applications and services. Which of the following would be the MOST effective first step in diagnosing the issue?",
+      "options": [
+        "Check DNS server configuration",
+        "Monitor bandwidth utilization on core network links",
+        "Reboot all network devices",
+        "Replace all workstation NICs"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A network administrator notices that a particular subnet is experiencing packet loss. Which tool would be MOST helpful in determining if the issue is related to network congestion?",
+      "options": [
+        "Port scanner",
+        "Protocol analyzer showing bandwidth utilization",
+        "DNS lookup tool",
+        "DHCP server logs"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "Users report that they occasionally cannot access network resources. The issue seems to occur randomly and resolve itself. Which of the following would be the MOST likely cause?",
+      "options": [
+        "Duplicate IP addresses",
+        "Incorrect DNS settings",
+        "DHCP server failure",
+        "Improper user training"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A network administrator wants to ensure that network devices send alerts when specific thresholds are exceeded. Which protocol would be MOST appropriate for this purpose?",
+      "options": [
+        "HTTP",
+        "SMTP",
+        "SNMP",
+        "FTP"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Monitor network activity, identifying performance and availability issues",
+      "question": "A network monitoring system reports that a critical server is offline, but users report they can still access the server's services. Which of the following would be the MOST likely cause?",
+      "options": [
+        "The monitoring system is using incorrect credentials",
+        "The server has multiple network interfaces, and the monitored one is down",
+        "The monitoring system is misconfigured with the wrong IP address",
+        "Users are accessing a redundant server"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A network administrator wants to prevent unauthorized access to the company's wireless network. Which of the following would provide the MOST secure authentication method?",
+      "options": [
+        "WEP with a complex key",
+        "WPA2-Personal with a strong passphrase",
+        "WPA2-Enterprise with RADIUS authentication",
+        "MAC address filtering only"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A company wants to implement a defense-in-depth strategy for their network. Which of the following combinations would BEST implement this concept?",
+      "options": [
+        "Firewall, IDS, and antivirus software",
+        "Multiple firewalls of the same brand",
+        "Strong passwords and user training",
+        "Encryption of all network traffic"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A network administrator wants to prevent unauthorized devices from connecting to the network. Which of the following would be the MOST effective solution?",
+      "options": [
+        "MAC filtering on all switches",
+        "802.1X port-based authentication",
+        "Static IP addressing",
+        "Disabling unused switch ports"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A company's network uses multiple VLANs to segment traffic. What additional security measure should be implemented to control traffic between these segments?",
+      "options": [
+        "Increasing VLAN numbers",
+        "Using private VLANs",
+        "Implementing ACLs or firewall rules between VLANs",
+        "Changing the VLAN trunking protocol"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A network administrator wants to prevent attackers from accessing sensitive information transmitted over the network. Which of the following would be the MOST effective solution?",
+      "options": [
+        "Network segmentation",
+        "Intrusion Detection System",
+        "Transport Layer Security (TLS)",
+        "Access Control Lists"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A company is concerned about potential DoS attacks against their public-facing servers. Which of the following would be the MOST effective mitigation?",
+      "options": [
+        "Implementing a web application firewall",
+        "Using strong passwords on all servers",
+        "Disabling unnecessary services on servers",
+        "Implementing a DDoS mitigation service"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A network administrator is configuring a new firewall. Which of the following represents the MOST secure default stance?",
+      "options": [
+        "Allow all traffic and block specific threats",
+        "Block all traffic and allow only necessary services",
+        "Allow internal traffic and block external traffic",
+        "Block known malicious IP addresses only"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A company wants to secure their wireless network. After implementing WPA2-Enterprise, what additional measure would MOST improve security?",
+      "options": [
+        "Changing the default SSID",
+        "Hiding the SSID",
+        "Implementing a separate guest network with isolation",
+        "Using MAC filtering"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "An organization needs to secure administrative access to network devices. Which of the following would be the MOST effective approach?",
+      "options": [
+        "Using SSH instead of Telnet",
+        "Implementing complex password requirements only",
+        "Using HTTPS instead of HTTP",
+        "Limiting administrative access to business hours"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A network administrator wants to prevent users from connecting unauthorized wireless access points to the network. Which of the following would be the MOST effective solution?",
+      "options": [
+        "Implementing 802.1X authentication on all switch ports",
+        "Network Access Control (NAC)",
+        "Regular wireless scanning for rogue access points",
+        "Disabling all unused switch ports"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A company wants to ensure that only authorized applications can communicate through their firewall. Which type of firewall would BEST meet this requirement?",
+      "options": [
+        "Packet filtering firewall",
+        "Circuit-level gateway",
+        "Application-level gateway",
+        "Stateful inspection firewall"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A network administrator wants to monitor for potential network intrusions without actively blocking traffic. Which tool would be MOST appropriate?",
+      "options": [
+        "Firewall",
+        "Intrusion Detection System (IDS)",
+        "Intrusion Prevention System (IPS)",
+        "Network Access Control (NAC)"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Implement network hardening techniques",
+      "question": "A company is concerned about potential insider threats accessing sensitive data. Which of the following would be the MOST effective mitigation?",
+      "options": [
+        "Implementing full disk encryption on all workstations",
+        "Deploying a Data Loss Prevention (DLP) solution",
+        "Using complex passwords",
+        "Installing antivirus software"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator is configuring a new router. After setting up the interfaces and routing, users still cannot access the internet. The administrator confirms that the router can ping external addresses. What is the MOST likely cause of the issue?",
+      "options": [
+        "The default gateway on client computers is incorrect",
+        "The router's firewall is blocking traffic",
+        "NAT is not configured on the router",
+        "DNS settings are incorrect on the router"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network technician needs to configure a new VLAN on a switch. Users in this VLAN need to communicate with users in other VLANs. What should be configured to enable this communication?",
+      "options": [
+        "VLAN trunking",
+        "Inter-VLAN routing",
+        "VTP (VLAN Trunking Protocol)",
+        "Spanning Tree Protocol"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator has configured a new DHCP server, but clients are not receiving IP addresses. The administrator confirms that the DHCP server is running. What is the MOST likely cause of the issue?",
+      "options": [
+        "The DHCP scope is exhausted",
+        "DHCP relay is not configured on the router",
+        "The clients have static IP addresses",
+        "The DHCP server has the wrong subnet mask"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator notices that one of the switches in the network is causing a loop, resulting in broadcast storms. Which protocol should be properly configured to prevent this issue?",
+      "options": [
+        "OSPF",
+        "BGP",
+        "STP",
+        "DHCP"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A company has two internet connections from different ISPs for redundancy. They want traffic to automatically switch to the secondary connection if the primary connection fails. Which technology should be implemented?",
+      "options": [
+        "NAT",
+        "PAT",
+        "VRRP",
+        "STP"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator needs to configure a router to advertise routes to neighboring routers. The network consists of Cisco and Juniper routers. Which routing protocol would be MOST appropriate?",
+      "options": [
+        "RIP",
+        "EIGRP",
+        "OSPF",
+        "IS-IS"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator is configuring QoS on a network to prioritize VoIP traffic. Which of the following would be the MOST important QoS mechanism for voice traffic?",
+      "options": [
+        "Traffic shaping",
+        "Low latency queuing",
+        "Weighted fair queuing",
+        "Random early detection"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator needs to configure a network device to forward traffic based on MAC addresses. Which device should be used?",
+      "options": [
+        "Router",
+        "Firewall",
+        "Switch",
+        "Load balancer"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network technician is troubleshooting a connectivity issue between two VLANs. The technician confirms that the switch configuration is correct. What device should the technician check next?",
+      "options": [
+        "DHCP server",
+        "DNS server",
+        "Layer 3 switch or router",
+        "Firewall"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator is configuring a wireless controller. Access points are connecting to the controller, but clients cannot connect to the wireless network. What is the MOST likely cause of the issue?",
+      "options": [
+        "The SSID is not configured on the controller",
+        "The access points are using the wrong channel",
+        "The wireless controller's management interface is down",
+        "The clients have outdated wireless drivers"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "Users report that they can connect to the internal network but cannot access the internet. The network administrator confirms that the default gateway is correctly configured. What is the MOST likely cause of the issue?",
+      "options": [
+        "The DNS server is not responding",
+        "The DHCP server is not assigning IP addresses",
+        "The firewall is blocking outbound traffic",
+        "The switch ports are not configured correctly"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator needs to configure a router to connect to an ISP that uses PPPoE. Which interface configuration is required?",
+      "options": [
+        "Static IP address with default gateway",
+        "Dynamic IP address using DHCP",
+        "PPPoE with username and password",
+        "BGP peering with the ISP"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Manage, configure, and troubleshoot network infrastructure",
+      "question": "A network administrator is configuring a router to connect multiple branch offices using site-to-site VPNs. Which protocol would be MOST appropriate for this purpose?",
+      "options": [
+        "PPTP",
+        "L2TP",
+        "IPsec",
+        "SSL"
+      ],
+      "answer": 2
+    }
+  ]
+}
