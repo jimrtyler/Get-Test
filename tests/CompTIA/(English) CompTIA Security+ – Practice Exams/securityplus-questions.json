@@ -1,0 +1,227 @@
+{
+  "name": "Security+ Certification Practice Questions",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "Threats, Attacks, and Vulnerabilities",
+      "question": "A security analyst is reviewing logs and notices multiple failed login attempts to the company's VPN from various international IP addresses using the same username. What type of attack is MOST likely occurring?",
+      "options": [
+        "Man-in-the-middle attack",
+        "Password spraying attack",
+        "Credential stuffing attack",
+        "Brute force attack"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Threats, Attacks, and Vulnerabilities",
+      "question": "A company's security team discovers that an attacker has modified a legitimate software update package before it was downloaded by users. Which of the following attack types BEST describes this scenario?",
+      "options": [
+        "Watering hole attack",
+        "Supply chain attack",
+        "Typosquatting",
+        "Advanced persistent threat"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Threats, Attacks, and Vulnerabilities",
+      "question": "A security researcher detects that a malicious website is exploiting a vulnerability in a browser plugin that allows the site to execute arbitrary code. This is an example of which type of vulnerability?",
+      "options": [
+        "Cross-site scripting (XSS)",
+        "SQL injection",
+        "Zero-day vulnerability",
+        "Buffer overflow"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Threats, Attacks, and Vulnerabilities",
+      "question": "During a security assessment, Jim Tyler of PowerShellEngineer.com demonstrates how an organization's DNS server responds to zone transfer requests from unauthorized sources. Which vulnerability is Jim MOST likely highlighting?",
+      "options": [
+        "DNS poisoning vulnerability",
+        "Improper DNS security controls",
+        "DNSSEC implementation flaw",
+        "DNS amplification vulnerability"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Architecture and Design",
+      "question": "A healthcare organization needs to implement a solution that will protect patient data at rest on mobile devices. Which of the following would be the MOST appropriate solution?",
+      "options": [
+        "Implementing a mobile device management (MDM) solution",
+        "Full disk encryption on all mobile devices",
+        "Requiring complex passwords",
+        "Installing antivirus software"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Architecture and Design",
+      "question": "A security architect is designing a network for a company with multiple departments. Each department needs access to different resources, and access to sensitive financial data should be strictly controlled. Which security design principle is MOST relevant?",
+      "options": [
+        "Defense in depth",
+        "Least privilege",
+        "Implicit deny",
+        "Separation of duties"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Architecture and Design",
+      "question": "A company is migrating critical services to the cloud and wants to ensure that data is protected from potential breaches at the cloud provider. Which solution would provide the BEST protection for sensitive data in this scenario?",
+      "options": [
+        "Implementing CASB solution",
+        "Client-side encryption before data is sent to the cloud",
+        "Relying on the cloud provider's built-in encryption",
+        "Transport layer encryption (TLS)"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Implementation",
+      "question": "A security administrator needs to implement a solution that will validate the identity of email-sending domains to prevent email spoofing. Which of the following should be implemented?",
+      "options": [
+        "SPF record",
+        "DMARC policy",
+        "DNSSEC",
+        "S/MIME"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Implementation",
+      "question": "A company wants to implement two-factor authentication for remote access to corporate resources. Which of the following combinations would provide the STRONGEST security?",
+      "options": [
+        "Username/password and security questions",
+        "Smart card and PIN",
+        "Username/password and knowledge-based questions",
+        "Email verification code and security questions"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Implementation",
+      "question": "A security administrator is configuring a SOHO wireless router for a small business. Which of the following configurations would provide the MOST secure wireless setup?",
+      "options": [
+        "WPA2-Personal with a complex passphrase, WPS disabled, and non-default SSID",
+        "WEP with MAC filtering and SSID hiding",
+        "WPA-Enterprise with the default SSID",
+        "WPA2-Personal with WPS enabled for easier connection"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Operations and Incident Response",
+      "question": "A security analyst receives an alert that a critical server is experiencing unusual outbound traffic to an unknown IP address. Which of the following is the MOST appropriate first step?",
+      "options": [
+        "Immediately shut down the server",
+        "Block the unknown IP address at the firewall",
+        "Collect and analyze additional forensic data",
+        "Restore the server from the most recent backup"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Operations and Incident Response",
+      "question": "During a security incident involving ransomware, which of the following actions should be performed FIRST?",
+      "options": [
+        "Pay the ransom to recover the encrypted files",
+        "Isolate the affected systems from the network",
+        "Attempt to decrypt the files with available tools",
+        "Restore from backup immediately"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Operations and Incident Response",
+      "question": "A security team is conducting a forensic investigation of a compromised system. Which of the following represents the correct order of volatility from MOST to LEAST volatile?",
+      "options": [
+        "Registers, cache, disk, backup tapes",
+        "Backup tapes, disk, cache, registers",
+        "Disk, registers, cache, backup tapes",
+        "Cache, registers, backup tapes, disk"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Governance, Risk, and Compliance",
+      "question": "A company is implementing a new e-commerce platform and needs to ensure compliance with payment card security standards. Which of the following should they implement?",
+      "options": [
+        "SOX compliance framework",
+        "HIPAA security controls",
+        "PCI DSS requirements",
+        "ISO 27001 certification"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Governance, Risk, and Compliance",
+      "question": "A security manager is assessing risks to a new application. The application has a vulnerability that could lead to unauthorized access with a likelihood of exploitation estimated at 30%. The potential financial impact is $500,000. What is the quantitative risk value?",
+      "options": [
+        "$150,000",
+        "$500,000",
+        "$1,500,000",
+        "$166,667"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Governance, Risk, and Compliance",
+      "question": "A company is developing their security policies and needs to define the acceptable use of company resources. Which type of policy should they create?",
+      "options": [
+        "Acceptable Use Policy (AUP)",
+        "Data Classification Policy",
+        "Business Continuity Plan",
+        "Disaster Recovery Policy"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Threats, Attacks, and Vulnerabilities",
+      "question": "A security analyst observes that a malicious actor has created a fake website that looks identical to a popular banking website, with a URL that is very similar to the legitimate site. What type of attack is this?",
+      "options": [
+        "Man-in-the-middle attack",
+        "Phishing attack",
+        "SQL injection attack",
+        "Session hijacking"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Threats, Attacks, and Vulnerabilities",
+      "question": "A security team discovers that an attacker exploited a vulnerability in a web application by entering specially crafted input into a search field, resulting in the application executing a command that revealed sensitive data. Which type of attack is this?",
+      "options": [
+        "Directory traversal",
+        "SQL injection",
+        "Cross-site scripting (XSS)",
+        "Command injection"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Architecture and Design",
+      "question": "A company needs to implement a secure method for employees to connect to internal resources while working remotely. Which of the following would provide the MOST secure solution?",
+      "options": [
+        "SSL VPN with multi-factor authentication",
+        "Remote Desktop Protocol over the internet",
+        "PPTP VPN with username and password authentication",
+        "SSH tunnel with password authentication"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Implementation",
+      "question": "A security administrator needs to implement a network security control that can inspect and filter traffic based on application layer protocols and behaviors. Which technology should be implemented?",
+      "options": [
+        "Stateful firewall",
+        "Intrusion Detection System (IDS)",
+        "Next-Generation Firewall (NGFW)",
+        "Network Address Translation (NAT)"
+      ],
+      "answer": 2
+    }
+  ]
+}
