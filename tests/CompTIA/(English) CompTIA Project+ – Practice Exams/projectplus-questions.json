@@ -1,0 +1,227 @@
+{
+  "name": "Project+ Certification Practice Questions",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "Project Management Basics",
+      "question": "A project manager is initiating a new software implementation project. Management has provided the budget and timeline constraints, but the specific deliverables are still undefined. Which document should the project manager develop FIRST?",
+      "options": [
+        "Work breakdown structure",
+        "Project charter",
+        "Risk management plan",
+        "Communications management plan"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Management Basics",
+      "question": "A project manager discovers that a key stakeholder's requirements were not captured during the initial planning phase. The project is now in the execution phase. What is the BEST course of action?",
+      "options": [
+        "Ignore the requirements since they were not specified earlier",
+        "Include the requirements without analyzing their impact",
+        "Document the requirements and perform impact analysis through change control",
+        "Ask the stakeholder to wait until the next project phase"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Project Constraints",
+      "question": "A project manager has been informed that the project deadline must be moved up by one month. Which of the following approaches would be MOST appropriate to address this constraint?",
+      "options": [
+        "Reduce the project scope through proper change control procedures",
+        "Ask team members to work overtime without additional compensation",
+        "Reduce the quality standards for deliverables",
+        "Ignore the request and maintain the original schedule"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Project Planning",
+      "question": "Jim Tyler from PowerShellEngineer.com has been hired as a consultant to help automate deployment tasks in an upcoming IT infrastructure project. The project manager needs to formally define Jim's responsibilities in the project. Which document should include this information?",
+      "options": [
+        "Project charter",
+        "RACI matrix",
+        "Risk register",
+        "Requirements traceability matrix"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Planning",
+      "question": "A project team is struggling to estimate the time needed for a complex technical task that has never been done before. Which estimation technique would be MOST appropriate?",
+      "options": [
+        "Parametric estimating",
+        "Three-point estimating",
+        "Bottom-up estimating",
+        "Analogous estimating"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Execution",
+      "question": "During the execution of a software development project, a team member reports that a critical dependency will be delayed by two weeks. The project manager determines this will impact the project's critical path. What should the project manager do FIRST?",
+      "options": [
+        "Crash the schedule by adding more resources",
+        "Update the risk register and notify stakeholders",
+        "Fast track subsequent activities to make up time",
+        "Request an extension of the project deadline"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Monitoring and Control",
+      "question": "A project manager is reviewing the project's earned value metrics and discovers the following: BAC = $100,000, PV = $50,000, EV = $40,000, AC = $55,000. What is the project's cost performance index (CPI)?",
+      "options": [
+        "0.73",
+        "0.80",
+        "1.25",
+        "0.91"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Project Monitoring and Control",
+      "question": "During a project status meeting, a team member reports that a risk identified earlier in the project has occurred. Which of the following should the project manager do NEXT?",
+      "options": [
+        "Update the risk register",
+        "Implement the contingency plan",
+        "Perform a new risk assessment",
+        "Close the risk item"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Communication",
+      "question": "A project manager notices that team members are frequently missing important information because they receive too many emails. Which of the following would be the MOST effective solution?",
+      "options": [
+        "Send more detailed emails with clearer subject lines",
+        "Implement a communication management plan with defined channels for different types of information",
+        "Hold more frequent team meetings to verbally communicate all information",
+        "Reduce the number of people copied on emails"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Leadership",
+      "question": "A project team is experiencing conflict related to technical decisions. Team members from different departments disagree on the approach to use. What leadership style would be MOST effective in this situation?",
+      "options": [
+        "Autocratic - make the decision quickly and move on",
+        "Laissez-faire - let the team work it out themselves",
+        "Participative - facilitate discussion to reach consensus",
+        "Servant - focus on individual team member needs"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Project Closure",
+      "question": "A project has been completed and the deliverables have been accepted by the client. What should the project manager do NEXT?",
+      "options": [
+        "Reassign team members to new projects",
+        "Document lessons learned",
+        "Close project accounts and contracts",
+        "Archive project documents"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Procurement",
+      "question": "A project manager needs to purchase specialized equipment for a project. The requirements are well-defined, but there are several potential vendors. Which procurement document should be used?",
+      "options": [
+        "Request for Proposal (RFP)",
+        "Request for Information (RFI)",
+        "Request for Quotation (RFQ)",
+        "Statement of Work (SOW)"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Project Quality Management",
+      "question": "A project team is implementing a new software system and wants to ensure that it meets user requirements. Which quality tool would be MOST helpful in verifying that all requirements have been addressed?",
+      "options": [
+        "Pareto chart",
+        "Control chart",
+        "Cause and effect diagram",
+        "Requirements traceability matrix"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Project Risk Management",
+      "question": "A project manager is developing the risk management plan for a complex IT implementation project. Which of the following would be the MOST appropriate tool to prioritize identified risks?",
+      "options": [
+        "SWOT analysis",
+        "Probability and impact matrix",
+        "Decision tree analysis",
+        "Brainstorming"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Stakeholder Management",
+      "question": "A key stakeholder with high power and influence is showing little interest in a critical project. Which approach would be MOST effective for managing this stakeholder?",
+      "options": [
+        "Ignore them since they show little interest",
+        "Send them all project communications",
+        "Keep them satisfied with regular, targeted updates",
+        "Engage them closely and manage their expectations actively"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Project Integration Management",
+      "question": "A project manager is dealing with multiple change requests that impact different aspects of the project. What is the BEST approach to handle these changes?",
+      "options": [
+        "Implement all changes immediately to avoid delays",
+        "Reject all changes to maintain the baseline",
+        "Process each change through the integrated change control system",
+        "Delegate change decisions to team leads"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Project Scope Management",
+      "question": "During a project review, a client requests features that were not part of the original requirements. The project is currently on schedule and within budget. What should the project manager do?",
+      "options": [
+        "Add the features without formal documentation",
+        "Refuse the request to maintain the baseline",
+        "Implement the change control process and assess impacts",
+        "Add the features and adjust the schedule without documentation"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Project Resource Management",
+      "question": "A project manager notices that a team member with critical skills is overallocated across multiple projects. Which of the following would be the MOST appropriate solution?",
+      "options": [
+        "Request additional resources with similar skills",
+        "Negotiate with other project managers for the resource's time",
+        "Ask the team member to work overtime",
+        "Revise the project schedule to accommodate the resource's availability"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Cost Management",
+      "question": "A project is halfway through its schedule but has spent 70% of its budget. The project manager calculates that the Cost Performance Index (CPI) is 0.85. What does this indicate about the project?",
+      "options": [
+        "The project is under budget",
+        "The project is over budget",
+        "The project will be completed early",
+        "The project is ahead of schedule"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Project Schedule Management",
+      "question": "A project manager is developing a project schedule and needs to identify which activities can be delayed without affecting the project end date. Which technique should be used?",
+      "options": [
+        "Resource leveling",
+        "Critical path analysis",
+        "Float calculation",
+        "Schedule compression"
+      ],
+      "answer": 2
+    }
+  ]
+}
