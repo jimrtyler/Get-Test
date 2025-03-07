@@ -1,0 +1,227 @@
+{
+  "name": "IT Fundamentals+ (ITF+) Certification Practice Questions",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "IT Concepts and Terminology",
+      "question": "A small business owner wants to set up their first office network. They plan to have five employees sharing documents and a printer. Which of the following would be the MOST appropriate basic network setup?",
+      "options": [
+        "A wireless router with built-in switch capabilities and a shared network printer",
+        "Five separate mobile hotspots, one for each employee",
+        "A single computer with multiple monitors for employees to share",
+        "Individual internet connections for each employee's computer"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "IT Concepts and Terminology",
+      "question": "A user notices that their computer is running much slower than usual. When they check the task manager, they see that the CPU usage is consistently at 95% even when no applications are open. What is the MOST likely cause of this issue?",
+      "options": [
+        "The computer needs more RAM installed",
+        "The hard drive needs to be defragmented",
+        "A background process or malware is consuming CPU resources",
+        "The power supply is failing"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "IT Concepts and Terminology",
+      "question": "A user needs to transfer large video files between computers that are not connected to the same network. Which of the following would be the MOST efficient method for this task?",
+      "options": [
+        "Email the files as attachments",
+        "Use a high-capacity USB flash drive",
+        "Upload to social media and download on the other computer",
+        "Print the file contents and manually type them in"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Infrastructure",
+      "question": "A small office needs to add wireless access for employees and guests. Security is a concern as some confidential data is processed on the network. Which of the following would be the MOST appropriate setup?",
+      "options": [
+        "A single wireless network with WEP encryption",
+        "A single wireless network with the SSID hidden",
+        "Two separate wireless networks: one for employees with WPA2 and one guest network with limited access",
+        "An open wireless network with MAC filtering"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Infrastructure",
+      "question": "A user's workstation loses internet connectivity, but they can still access internal network resources. The network administrator confirms that other users can access the internet without issues. Which of the following should be checked FIRST?",
+      "options": [
+        "The user's web browser settings",
+        "The user's default gateway configuration",
+        "The internal network switch",
+        "The internet service provider's outage status"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Infrastructure",
+      "question": "A small retail business owner wants to protect their point-of-sale system from power outages that frequently occur in their area. Which device should they purchase?",
+      "options": [
+        "Power strip",
+        "Surge protector",
+        "Uninterruptible Power Supply (UPS)",
+        "Power conditioner"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Applications and Software",
+      "question": "A user needs to edit a PDF document to update some text and images. Which of the following would be the MOST appropriate software for this task?",
+      "options": [
+        "Adobe Reader",
+        "Microsoft Word",
+        "Adobe Acrobat Pro",
+        "Windows Notepad"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Applications and Software",
+      "question": "A user receives a spreadsheet with thousands of rows of data and needs to find specific information based on multiple criteria. Which of the following features in spreadsheet software would be MOST helpful?",
+      "options": [
+        "Find and Replace",
+        "Sorting",
+        "Filtering",
+        "Cell formatting"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Applications and Software",
+      "question": "A small business wants to track inventory, customer information, and sales in a single application. Which type of software would be MOST appropriate for this purpose?",
+      "options": [
+        "Word processing software",
+        "Spreadsheet software",
+        "Presentation software",
+        "Database software"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Software Development",
+      "question": "A company is developing a new application and needs to ensure it works correctly before release. Which of the following describes the process of checking if the software meets the specified requirements?",
+      "options": [
+        "Debugging",
+        "Development",
+        "Testing",
+        "Implementation"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Software Development",
+      "question": "A developer needs to create a simple website for a local community organization. The site will contain basic information and contact details. Which of the following would be the MOST appropriate for creating this website?",
+      "options": [
+        "C++ programming language",
+        "HTML and CSS",
+        "Assembly language",
+        "SQL"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Database Fundamentals",
+      "question": "A small medical office needs to store patient information in a structured way. Which type of database model would be MOST appropriate for organizing related data about patients, appointments, and medical histories?",
+      "options": [
+        "Flat file database",
+        "Network database",
+        "Relational database",
+        "Hierarchical database"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Security",
+      "question": "An employee receives an email that appears to be from their bank, asking them to click a link and verify their account details due to a security issue. What should the employee do?",
+      "options": [
+        "Click the link and provide the requested information to resolve the security issue",
+        "Forward the email to their manager to handle",
+        "Reply to the email asking for more information",
+        "Contact their bank directly using the phone number from their official website or bank card"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Security",
+      "question": "A small business wants to implement basic security measures for their computers. Which of the following combinations would provide the MOST effective basic protection?",
+      "options": [
+        "Antivirus software, regular updates, and strong passwords",
+        "Changing the computer names and using screen savers",
+        "Installing multiple antivirus programs and sharing passwords for easy support",
+        "Disconnecting from the internet and using only local applications"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Security",
+      "question": "An employee needs to create a secure password for their work account. Which of the following would be the MOST secure password?",
+      "options": [
+        "Company123",
+        "P@ssw0rd!2023",
+        "Their street address",
+        "The same password they use for their personal email"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Business Principles",
+      "question": "A company is evaluating the cost of upgrading their computers. They need to consider both the immediate purchase price and the ongoing maintenance costs. Which of the following terms BEST describes this comprehensive cost evaluation?",
+      "options": [
+        "Return on Investment (ROI)",
+        "Total Cost of Ownership (TCO)",
+        "Capital Expenditure (CapEx)",
+        "Operating Expenditure (OpEx)"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Business Principles",
+      "question": "A local retail store wants to implement a basic technology solution to track inventory and sales. The owner has limited technical knowledge and a small budget. What would be the MOST appropriate approach?",
+      "options": [
+        "Develop a custom enterprise resource planning system",
+        "Purchase an off-the-shelf point-of-sale system designed for small retailers",
+        "Hire a full-time IT staff member to build a solution",
+        "Continue using manual paper-based tracking methods"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Troubleshooting",
+      "question": "A user reports that their printer is not working. When troubleshooting this issue, which of the following should be checked FIRST?",
+      "options": [
+        "Reinstall the operating system",
+        "Verify that the printer has power and is connected to the network or computer",
+        "Replace the printer with a new model",
+        "Check if other users are experiencing similar issues"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Troubleshooting",
+      "question": "A user cannot connect to the internet on their laptop. The network icon shows that they are connected to the Wi-Fi network, and other devices on the same network can access the internet. Which of the following should be tried FIRST?",
+      "options": [
+        "Reset the Wi-Fi router",
+        "Reinstall the operating system",
+        "Call the Internet Service Provider",
+        "Restart the laptop"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Troubleshooting",
+      "question": "A user reports that an application keeps crashing on their computer. Which of the following troubleshooting steps should be tried FIRST?",
+      "options": [
+        "Reinstall the operating system",
+        "Replace the computer",
+        "Close other applications and restart the problematic application",
+        "Immediately contact the application developer"
+      ],
+      "answer": 2
+    }
+  ]
+}
