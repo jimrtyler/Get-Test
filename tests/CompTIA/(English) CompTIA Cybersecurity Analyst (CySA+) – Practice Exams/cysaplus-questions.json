@@ -1,0 +1,227 @@
+{
+  "name": "CySA+ Certification Practice Questions",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "Threat and Vulnerability Management",
+      "question": "A security analyst is reviewing vulnerability scan results and notices multiple critical vulnerabilities in legacy systems that cannot be patched due to business requirements. Which of the following would be the MOST appropriate next step?",
+      "options": [
+        "Implement network segmentation to isolate the vulnerable systems",
+        "Accept the risk and document it in the risk register",
+        "Immediately take the systems offline until they can be replaced",
+        "Deploy honeypots to distract attackers from the vulnerable systems"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Threat and Vulnerability Management",
+      "question": "A security analyst needs to prioritize vulnerabilities for remediation. The organization has limited resources and must focus on the most critical issues first. Which of the following factors would be MOST important to consider when prioritizing?",
+      "options": [
+        "The age of the vulnerability",
+        "Whether the vulnerability has an exploit available in the wild",
+        "The vendor who reported the vulnerability",
+        "The complexity of the patch installation"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Threat and Vulnerability Management",
+      "question": "A security analyst is conducting threat modeling for a new web application. Which of the following approaches would be MOST effective for identifying potential security threats?",
+      "options": [
+        "Code review of the application",
+        "Penetration testing of the production environment",
+        "STRIDE methodology analyzing each component",
+        "Reviewing similar applications' security incidents"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Threat and Vulnerability Management",
+      "question": "An organization's security team is implementing a vulnerability management program. Which of the following metrics would be MOST useful for measuring the program's effectiveness?",
+      "options": [
+        "Number of vulnerabilities detected per scan",
+        "Average time to remediate critical vulnerabilities",
+        "Number of security tools deployed",
+        "Cost of vulnerability scanning tools"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Software and Systems Security",
+      "question": "A security analyst is reviewing logs from a web application firewall and notices a pattern of requests containing SQL syntax in form fields. Which of the following attacks is MOST likely being attempted?",
+      "options": [
+        "Cross-site scripting",
+        "SQL injection",
+        "Buffer overflow",
+        "Session hijacking"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Software and Systems Security",
+      "question": "A security analyst receives an alert about an application behaving suspiciously. Investigation reveals the application is making DNS requests to randomly generated domain names every few minutes. Which of the following is the MOST likely explanation?",
+      "options": [
+        "The application is using DNS load balancing",
+        "The application is attempting to exfiltrate data through DNS tunneling",
+        "The application is using a domain generation algorithm for command and control",
+        "The application is performing DNS cache poisoning"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Software and Systems Security",
+      "question": "A security analyst needs to secure a DevOps pipeline to ensure that vulnerable code is not deployed to production. Which of the following would be the MOST effective approach?",
+      "options": [
+        "Manual code review before each deployment",
+        "Weekly vulnerability scans of production systems",
+        "Integrating automated security testing into the CI/CD pipeline",
+        "Requiring developers to sign their code before committing"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Software and Systems Security",
+      "question": "A security analyst is investigating suspicious behavior on a Linux server. Which command would be MOST useful to identify unusual processes and their network connections?",
+      "options": [
+        "ps aux",
+        "netstat -tulpn",
+        "ls -la /proc",
+        "cat /var/log/auth.log"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Security Operations and Monitoring",
+      "question": "A SOC analyst notices an unusual spike in failed login attempts across multiple critical systems at 3:00 AM. Which of the following should be the FIRST step in responding to this situation?",
+      "options": [
+        "Block all external access to the affected systems",
+        "Reset all user passwords across the organization",
+        "Collect and analyze logs to determine the pattern and source of attempts",
+        "Shut down the affected systems immediately"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Security Operations and Monitoring",
+      "question": "A security analyst wants to implement a solution that will detect previously unknown malware based on behavioral analysis rather than signatures. Which type of security control would be MOST appropriate?",
+      "options": [
+        "Host-based intrusion detection system (HIDS)",
+        "Signature-based antivirus software",
+        "User behavior analytics (UBA) platform",
+        "Security information and event management (SIEM) system"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Security Operations and Monitoring",
+      "question": "An organization is experiencing a high rate of false positives from their intrusion detection system. Which of the following actions would be MOST effective in reducing false positives while maintaining security?",
+      "options": [
+        "Switch from IDS to IPS to block all suspicious traffic",
+        "Disable the IDS entirely and rely on firewall logs",
+        "Tune the IDS rules and thresholds based on normal network behavior",
+        "Implement a honeypot to divert attacks from production systems"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Security Operations and Monitoring",
+      "question": "A security analyst is configuring a SIEM solution for an organization. Which of the following log sources would provide the MOST value for detecting lateral movement within the network?",
+      "options": [
+        "Firewall logs",
+        "Domain controller authentication logs",
+        "Web server access logs",
+        "Email gateway logs"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Incident Response",
+      "question": "During a security incident, a security analyst discovers that several user accounts have been compromised. Which of the following should be done FIRST?",
+      "options": [
+        "Disable the compromised accounts",
+        "Reset passwords for all users in the organization",
+        "Restore the accounts from backup",
+        "Update the antivirus signatures"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Incident Response",
+      "question": "A security analyst has confirmed that a system has been compromised by malware. Which of the following would be the MOST important data to capture before disconnecting the system from the network?",
+      "options": [
+        "Registry entries",
+        "Running processes and network connections",
+        "Installed applications",
+        "User account information"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Incident Response",
+      "question": "During a security incident, a junior analyst wants to immediately reimage an affected server to restore service quickly. As the senior analyst, what would be your MOST appropriate response?",
+      "options": [
+        "Approve the reimaging to minimize downtime",
+        "Preserve an image of the system for forensic analysis before reimaging",
+        "Run an antivirus scan instead of reimaging",
+        "Wait for the CEO's approval before taking any action"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Incident Response",
+      "question": "After containing a security incident, which of the following tasks would be MOST important during the eradication phase?",
+      "options": [
+        "Notifying customers about the breach",
+        "Conducting a lessons learned session",
+        "Identifying and eliminating the root cause of the incident",
+        "Testing system performance"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Compliance and Assessment",
+      "question": "A security analyst is preparing for a compliance audit and needs to verify that all critical security patches have been applied across the organization. Which of the following would provide the MOST comprehensive view of patch compliance?",
+      "options": [
+        "Reviewing change management documentation",
+        "Conducting a full vulnerability scan of all systems",
+        "Checking vendor websites for released patches",
+        "Interviewing system administrators about patching practices"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Compliance and Assessment",
+      "question": "An organization needs to demonstrate compliance with multiple regulatory frameworks. Which of the following approaches would be MOST efficient for managing compliance requirements?",
+      "options": [
+        "Assigning a compliance officer for each regulatory framework",
+        "Creating separate security controls for each framework",
+        "Implementing a unified compliance framework that maps controls to multiple regulations",
+        "Outsourcing all compliance activities to a third party"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Compliance and Assessment",
+      "question": "A security analyst is conducting a risk assessment for an organization's new cloud-based application. Which of the following would be the MOST important to evaluate?",
+      "options": [
+        "The cloud provider's marketing materials",
+        "The service level agreement and shared responsibility model",
+        "The physical location of the cloud provider's data centers",
+        "The cloud provider's number of customers"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Compliance and Assessment",
+      "question": "A security analyst is tasked with evaluating the effectiveness of the organization's security awareness program. Which of the following metrics would provide the MOST meaningful measurement?",
+      "options": [
+        "Number of employees who completed training",
+        "Reduction in security incidents caused by employee errors",
+        "Length of the security awareness training sessions",
+        "Employee satisfaction surveys about the training"
+      ],
+      "answer": 1
+    }
+  ]
+}
