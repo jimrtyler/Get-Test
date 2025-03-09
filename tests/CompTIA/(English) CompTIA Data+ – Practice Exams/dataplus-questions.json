@@ -1,0 +1,227 @@
+{
+  "name": "Data+ Certification Practice Questions",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "Data Concepts and Environments",
+      "question": "A data analyst is working with a dataset that contains information about customer purchases over the past year. The analyst notices multiple instances where the same purchase appears twice with identical timestamps and transaction IDs. Which data quality issue is the analyst encountering?",
+      "options": [
+        "Data inconsistency",
+        "Data redundancy",
+        "Data incompleteness",
+        "Data inaccuracy"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Data Concepts and Environments",
+      "question": "A company maintains customer data in separate systems for sales, support, and billing. The marketing team needs a comprehensive view of customer interactions. Which type of data environment would be MOST appropriate to implement?",
+      "options": [
+        "Data lake",
+        "Transactional database",
+        "Data warehouse",
+        "NoSQL database"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Data Concepts and Environments",
+      "question": "A data analyst needs to work with a dataset that is updated in real-time and contains both structured and unstructured data. Which data storage solution would be MOST appropriate?",
+      "options": [
+        "Relational database",
+        "Data lake",
+        "CSV files",
+        "Data mart"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Data Concepts and Environments",
+      "question": "An organization is implementing a data governance program. Which of the following would be the MOST important first step?",
+      "options": [
+        "Purchasing a data catalog tool",
+        "Hiring additional data analysts",
+        "Defining data ownership and stewardship roles",
+        "Migrating all data to the cloud"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Data Mining",
+      "question": "A data analyst is working with a large dataset and wants to identify natural groupings of similar items within the data without predefined categories. Which data mining technique would be MOST appropriate?",
+      "options": [
+        "Classification",
+        "Regression analysis",
+        "Clustering",
+        "Association rule learning"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Data Mining",
+      "question": "A retail company wants to analyze its sales data to understand which products are frequently purchased together. Which data mining technique would be MOST effective for this analysis?",
+      "options": [
+        "Association rule mining",
+        "Time series analysis",
+        "Decision trees",
+        "Linear regression"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Data Mining",
+      "question": "A data analyst is working with a dataset containing 50 variables but needs to reduce the dimensionality while preserving as much information as possible. Which technique would be MOST appropriate?",
+      "options": [
+        "Clustering",
+        "Principal Component Analysis (PCA)",
+        "Logistic regression",
+        "Decision trees"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Data Analysis",
+      "question": "A data analyst needs to determine if there is a relationship between customer age and purchase amount. Which analytical method would be MOST appropriate?",
+      "options": [
+        "Chi-square test",
+        "ANOVA",
+        "Correlation analysis",
+        "Logistic regression"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Data Analysis",
+      "question": "A marketing team wants to segment their customer base based on purchasing behavior, demographics, and engagement metrics. Which analytical approach would be MOST effective?",
+      "options": [
+        "Linear regression",
+        "K-means clustering",
+        "Time series analysis",
+        "Hypothesis testing"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Data Analysis",
+      "question": "A data analyst wants to determine if a new website design has significantly improved conversion rates compared to the old design. Which statistical test would be MOST appropriate?",
+      "options": [
+        "Pearson correlation",
+        "Chi-square test",
+        "A/B test with hypothesis testing",
+        "Multiple regression"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Visualization",
+      "question": "A data analyst needs to visualize the relationship between three variables: product category, sales amount, and profit margin. Which type of visualization would be MOST effective?",
+      "options": [
+        "Line chart",
+        "Pie chart",
+        "Scatter plot",
+        "Bubble chart"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Visualization",
+      "question": "A data analyst wants to show how sales performance has changed over the past 24 months across five different regions. Which visualization would be MOST appropriate?",
+      "options": [
+        "Stacked bar chart",
+        "Multiple line chart",
+        "Pie chart",
+        "Histogram"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Visualization",
+      "question": "A data analyst has created a dashboard for executives that contains several complex visualizations. Users are finding it difficult to interpret the data. Which of the following would be the MOST effective improvement?",
+      "options": [
+        "Add more detailed visualizations",
+        "Include raw data tables with the visualizations",
+        "Simplify the visualizations and add clear titles and annotations",
+        "Use more vibrant colors to make the charts stand out"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Data Preparation",
+      "question": "A data analyst is working with a dataset where 10% of the age values are missing. Which approach would be MOST appropriate for handling this missing data?",
+      "options": [
+        "Delete all records with missing age values",
+        "Replace missing values with zero",
+        "Replace missing values with the mean or median age",
+        "Leave the missing values as is"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Data Preparation",
+      "question": "A data analyst notices that the sales amount column in a dataset contains values with different currencies ($, €, £). Which data preparation step should be performed FIRST?",
+      "options": [
+        "Convert all values to a standard currency using exchange rates",
+        "Remove records with non-USD currencies",
+        "Create separate columns for each currency",
+        "Use the mean value for all records"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Data Preparation",
+      "question": "A data analyst is preparing a dataset for machine learning and notices that the 'income' variable has a few extremely high values that are skewing the distribution. Which technique would be MOST appropriate to address this issue?",
+      "options": [
+        "Remove the outliers completely",
+        "Apply log transformation to the income variable",
+        "Replace outliers with the mean value",
+        "Ignore the outliers as they represent valid data"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Data Ethics and Governance",
+      "question": "A data analyst is working with personally identifiable information (PII) for a market research project. Which of the following approaches would be MOST appropriate to protect privacy?",
+      "options": [
+        "Store the data on a personal laptop for convenience",
+        "Share the raw data with all stakeholders",
+        "Anonymize the data by removing identifying information",
+        "Use basic password protection for data files"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Data Ethics and Governance",
+      "question": "A data analyst discovers that a predictive model for loan approvals shows bias against a protected demographic group. What should the analyst do FIRST?",
+      "options": [
+        "Deploy the model anyway as it has good overall accuracy",
+        "Document the bias and investigate its source in the data or algorithm",
+        "Add more variables to the model to improve its performance",
+        "Remove the protected demographic variable from the dataset"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Data Ethics and Governance",
+      "question": "A company is implementing data retention policies. Which of the following would be the MOST important consideration?",
+      "options": [
+        "Storing all data indefinitely for possible future use",
+        "Compliance with relevant regulations regarding data retention periods",
+        "Minimizing storage costs by deleting all data after analysis",
+        "Giving individual departments complete control over their data retention"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Performance Metrics",
+      "question": "A data analyst has built a classification model to predict customer churn. Which metric would be MOST appropriate to evaluate this model if the classes are highly imbalanced (few churned customers)?",
+      "options": [
+        "Accuracy",
+        "F1 score",
+        "Mean squared error",
+        "R-squared"
+      ],
+      "answer": 1
+    }
+  ]
+}
