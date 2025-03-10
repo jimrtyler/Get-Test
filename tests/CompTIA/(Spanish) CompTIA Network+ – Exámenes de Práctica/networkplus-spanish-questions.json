@@ -1,0 +1,227 @@
+{
+  "name": "Preguntas de Práctica para Certificación Network+ en Español",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "Implementación de Red",
+      "question": "Un técnico de redes está instalando un nuevo punto de acceso inalámbrico en una oficina. El gerente solicita que la señal sea fuerte en toda la planta, pero no debe ser detectable desde el estacionamiento por razones de seguridad. ¿Cuál de las siguientes acciones sería la MÁS apropiada?",
+      "options": [
+        "Colocar el punto de acceso en el centro de la oficina y reducir la potencia de transmisión",
+        "Instalar el punto de acceso cerca de una ventana y usar una antena direccional",
+        "Configurar el punto de acceso para que requiera autenticación 802.1X",
+        "Ocultar el SSID del punto de acceso"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Implementación de Red",
+      "question": "Un administrador de red necesita conectar dos edificios que están separados por 300 metros. Se requiere una conexión con un ancho de banda de al menos 1 Gbps y debe ser resistente a interferencias electromagnéticas. ¿Cuál de las siguientes opciones sería la MÁS adecuada?",
+      "options": [
+        "Cable coaxial con amplificadores",
+        "Cable UTP Cat6a",
+        "Fibra óptica monomodo",
+        "Enlace inalámbrico punto a punto de 5 GHz"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Implementación de Red",
+      "question": "Una empresa está implementando una red inalámbrica en un entorno de oficina con muchas paredes divisorias. Los usuarios necesitan poder moverse libremente por la oficina sin perder la conexión. ¿Qué tecnología inalámbrica sería la MÁS adecuada para este escenario?",
+      "options": [
+        "Red Wi-Fi mesh con múltiples puntos de acceso",
+        "Un único punto de acceso 802.11n con alta potencia",
+        "Múltiples puntos de acceso 802.11g en el mismo canal",
+        "Conexión por Bluetooth para todos los dispositivos"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Operaciones de Red",
+      "question": "Un administrador de red observa que el tráfico de red aumenta significativamente todos los días a las 10:00 AM, causando lentitud en las aplicaciones críticas. ¿Cuál sería el primer paso MÁS apropiado para abordar este problema?",
+      "options": [
+        "Aumentar el ancho de banda de la conexión a Internet",
+        "Implementar QoS para priorizar las aplicaciones críticas",
+        "Analizar el tráfico de red para identificar la causa del aumento",
+        "Reiniciar todos los equipos de red a las 9:45 AM"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Operaciones de Red",
+      "question": "Un técnico de redes recibe una llamada de un usuario que no puede conectarse a la red. El técnico puede ver que el puerto del switch donde está conectado el usuario está activo y otras personas en la misma área no tienen problemas. ¿Cuál de las siguientes acciones debería realizar PRIMERO?",
+      "options": [
+        "Reemplazar el cable de red del usuario",
+        "Reiniciar el switch de red",
+        "Verificar la configuración IP del equipo del usuario",
+        "Sustituir la tarjeta de red del equipo del usuario"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Seguridad de Red",
+      "question": "Una empresa necesita implementar una solución que permita a los empleados acceder a la red interna de forma segura cuando trabajan desde casa. ¿Cuál de las siguientes opciones sería la MÁS apropiada?",
+      "options": [
+        "Conexión por Escritorio Remoto (RDP) a través de Internet",
+        "Acceso por FTP con usuario y contraseña",
+        "Red Privada Virtual (VPN) con autenticación de dos factores",
+        "Abrir puertos específicos en el firewall para cada servicio"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Seguridad de Red",
+      "question": "Un administrador de seguridad está configurando un firewall para la red de la empresa. ¿Cuál de las siguientes configuraciones representaría la postura de seguridad MÁS adecuada?",
+      "options": [
+        "Permitir todo el tráfico entrante y bloquear solo las amenazas conocidas",
+        "Bloquear todo el tráfico entrante y permitir solo los servicios necesarios",
+        "Permitir todo el tráfico interno y bloquear todo el tráfico externo",
+        "Configurar el firewall en modo monitor sin bloquear tráfico"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Seguridad de Red",
+      "question": "Una empresa quiere proteger su red inalámbrica corporativa. Después de implementar WPA2-Enterprise, ¿qué medida adicional mejoraría MÁS la seguridad?",
+      "options": [
+        "Cambiar el SSID predeterminado",
+        "Ocultar el SSID de la red",
+        "Implementar una red para invitados separada con aislamiento de clientes",
+        "Filtrado por direcciones MAC"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Solución de Problemas",
+      "question": "Un usuario reporta que puede acceder a sitios web por su nombre (como www.ejemplo.com) pero no puede conectarse a servicios de red internos por nombre. Puede acceder a los servicios internos usando direcciones IP. ¿Cuál es la causa MÁS probable del problema?",
+      "options": [
+        "La puerta de enlace predeterminada está configurada incorrectamente",
+        "El servicio DNS interno no está funcionando correctamente",
+        "El cable de red del usuario está dañado",
+        "El firewall está bloqueando el tráfico web"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Solución de Problemas",
+      "question": "Un técnico de redes está solucionando un problema de conectividad en un switch. El LED del puerto parpadea en ámbar en lugar de verde sólido. ¿Cuál es la causa MÁS probable del problema?",
+      "options": [
+        "El puerto está configurado para la VLAN incorrecta",
+        "Existe un problema físico con el cable o la conexión",
+        "El puerto está deshabilitado administrativamente",
+        "El dispositivo conectado está enviando demasiado tráfico"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Solución de Problemas",
+      "question": "Un administrador de red recibe informes de que la red está funcionando muy lentamente. Ejecuta el comando ping a un servidor interno y observa tiempos de respuesta variables entre 2 ms y 1500 ms. ¿Cuál es la causa MÁS probable?",
+      "options": [
+        "El servidor tiene una configuración IP duplicada",
+        "Hay congestión en la red",
+        "El cable de red del administrador está dañado",
+        "El servidor está sobrecargado de solicitudes"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Infraestructura de Red",
+      "question": "Un administrador está diseñando la infraestructura para un nuevo centro de datos. Se requiere que el tiempo de actividad sea lo más cercano posible al 100%. ¿Qué característica de diseño sería la MÁS importante para lograr este objetivo?",
+      "options": [
+        "Implementar redes virtuales",
+        "Utilizar componentes redundantes y eliminar puntos únicos de fallo",
+        "Desplegar firewalls de última generación",
+        "Utilizar solo equipo de una misma marca"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Infraestructura de Red",
+      "question": "Una empresa está implementando VLANs en su red para segmentar el tráfico entre departamentos. ¿Qué dispositivo es NECESARIO para permitir la comunicación entre diferentes VLANs?",
+      "options": [
+        "Switch de capa 2",
+        "Router o switch de capa 3",
+        "Firewall",
+        "Punto de acceso inalámbrico"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Infraestructura de Red",
+      "question": "Un administrador de red está diseñando una red para una empresa con múltiples departamentos que requieren diferentes niveles de seguridad. ¿Qué modelo de red sería el MÁS apropiado?",
+      "options": [
+        "Red plana con un único dominio de broadcast",
+        "Modelo jerárquico con capas de núcleo, distribución y acceso",
+        "Topología de malla completa para todos los dispositivos",
+        "Topología en bus con todos los dispositivos en serie"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Virtualización y Cloud",
+      "question": "Una empresa está considerando migrar algunos de sus servicios a la nube. ¿Cuál de las siguientes opciones representaría una ventaja clave de utilizar servicios en la nube en lugar de infraestructura local?",
+      "options": [
+        "Mayor control sobre la infraestructura física",
+        "Menor necesidad de personal de TI",
+        "Escalabilidad flexible según las necesidades del negocio",
+        "Mejor rendimiento de las aplicaciones"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Virtualización y Cloud",
+      "question": "Un administrador de TI está implementando una solución que permite ejecutar múltiples sistemas operativos en un solo servidor físico. ¿Qué tecnología está implementando?",
+      "options": [
+        "Clustering",
+        "Balanceo de carga",
+        "Virtualización",
+        "Computación distribuida"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Conceptos de Cableado",
+      "question": "Un técnico de redes está instalando cableado en un nuevo edificio de oficinas. ¿Qué tipo de cable sería el MÁS apropiado para las conexiones troncales entre los gabinetes de telecomunicaciones de diferentes pisos?",
+      "options": [
+        "Cable UTP Cat6",
+        "Cable coaxial RG-6",
+        "Fibra óptica multimodo",
+        "Cable STP Cat7"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Conceptos de Cableado",
+      "question": "Durante la instalación de un nuevo cable de red, un técnico debe pasar el cable cerca de tubos fluorescentes y cables eléctricos. ¿Qué tipo de cable debería utilizar para minimizar la interferencia electromagnética?",
+      "options": [
+        "Cable UTP Cat5e",
+        "Cable coaxial",
+        "Cable STP (blindado)",
+        "Cable de fibra óptica"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Direccionamiento IP",
+      "question": "Un administrador de red necesita dividir una red de clase C (192.168.1.0/24) en cuatro subredes de igual tamaño. ¿Cuál sería la máscara de subred correcta para estas subredes?",
+      "options": [
+        "255.255.255.192",
+        "255.255.255.240",
+        "255.255.255.224",
+        "255.255.255.128"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Direccionamiento IP",
+      "question": "Una empresa ha recibido un bloque de direcciones IPv6 2001:DB8:ACAD::/48 de su ISP. ¿Cuántas subredes /64 puede crear la empresa con este bloque de direcciones?",
+      "options": [
+        "256",
+        "65,536",
+        "16,777,216",
+        "4,294,967,296"
+      ],
+      "answer": 1
+    }
+  ]
+}
