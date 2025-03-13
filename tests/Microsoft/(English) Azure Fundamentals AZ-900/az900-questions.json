@@ -1,0 +1,227 @@
+{
+  "name": "Azure Fundamentals (AZ-900) Certification Practice Questions",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "Cloud Concepts",
+      "question": "A small business owner wants to move their on-premises applications to the cloud. They are concerned about upfront costs and want to pay only for the resources they use. Which key cloud computing benefit should you emphasize to address their concern?",
+      "options": [
+        "High availability",
+        "Geographic distribution",
+        "Consumption-based pricing model",
+        "Increased security"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Cloud Concepts",
+      "question": "A company is evaluating moving from an on-premises infrastructure to a cloud-based solution. They want to ensure their IT staff doesn't need to manage hardware or the virtualization platform. Which cloud service model would BEST meet this requirement?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Cloud Concepts",
+      "question": "A healthcare organization needs to keep all patient data within national borders to comply with local regulations. Which cloud deployment model would BEST address this requirement?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "Multi-cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Cloud Concepts",
+      "question": "A company wants to use Azure for testing and development while keeping their production workloads in their on-premises datacenter. Which cloud deployment model are they implementing?",
+      "options": [
+        "Private cloud",
+        "Public cloud",
+        "Hybrid cloud",
+        "Multi-cloud"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Azure Architecture and Services",
+      "question": "A company is launching a new website and expects unpredictable traffic patterns. They need a compute service that automatically scales to meet demand without managing servers. Which Azure service would be MOST appropriate?",
+      "options": [
+        "Azure Virtual Machines",
+        "Azure App Service",
+        "Azure Container Instances",
+        "Azure Kubernetes Service"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Azure Architecture and Services",
+      "question": "A development team needs to store unstructured data including images, videos, and documents that will be accessed infrequently. Which Azure storage service would be MOST cost-effective for this scenario?",
+      "options": [
+        "Azure Blob Storage with Cool tier",
+        "Azure Files",
+        "Azure Table Storage",
+        "Azure Disk Storage"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Azure Architecture and Services",
+      "question": "A company wants to implement a solution to protect their applications from DDoS attacks and web vulnerabilities. Which Azure service should they use?",
+      "options": [
+        "Azure Firewall",
+        "Network Security Groups",
+        "Azure DDoS Protection and Web Application Firewall",
+        "Azure Sentinel"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Azure Architecture and Services",
+      "question": "A data analyst needs to process large datasets and run complex queries without managing infrastructure. Which Azure service would be MOST appropriate?",
+      "options": [
+        "Azure SQL Database",
+        "Azure Synapse Analytics",
+        "Azure Cosmos DB",
+        "Azure Database for MySQL"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Azure Architecture and Services",
+      "question": "A company wants to connect their on-premises network to Azure securely via a private connection that doesn't traverse the public internet. Which Azure service should they use?",
+      "options": [
+        "Azure VPN Gateway",
+        "Azure ExpressRoute",
+        "Azure Firewall",
+        "Azure Front Door"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Azure Management and Governance",
+      "question": "A system administrator needs to grant a team member permission to create virtual machines in a specific resource group. Which Azure service should they use?",
+      "options": [
+        "Azure Policy",
+        "Azure Blueprints",
+        "Azure Role-Based Access Control (RBAC)",
+        "Azure Security Center"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Azure Management and Governance",
+      "question": "A company wants to ensure all Azure resources are tagged with department information for cost tracking. Which Azure service should they use to automatically enforce this requirement?",
+      "options": [
+        "Azure Tags",
+        "Azure Cost Management",
+        "Azure Policy",
+        "Azure Monitor"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Azure Management and Governance",
+      "question": "A finance department needs to forecast cloud spending for the next fiscal year. Which Azure service would provide the MOST helpful information for this task?",
+      "options": [
+        "Azure Advisor",
+        "Azure Security Center",
+        "Azure Cost Management and Billing",
+        "Azure Service Health"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Azure Management and Governance",
+      "question": "A company needs to track and receive notifications when Azure service issues might impact their applications. Which Azure service should they use?",
+      "options": [
+        "Azure Monitor",
+        "Azure Service Health",
+        "Azure Advisor",
+        "Azure Security Center"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Azure Management and Governance",
+      "question": "An organization wants to standardize the creation of compliant environments in Azure. They need to deploy a consistent set of resources with predefined configurations. Which Azure service would be MOST appropriate?",
+      "options": [
+        "Azure Resource Manager templates",
+        "Azure Blueprints",
+        "Azure Policy",
+        "Azure App Configuration"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Azure Pricing and Support",
+      "question": "A startup is planning to use Azure and wants to minimize costs during their initial development phase. Which purchasing option would be MOST appropriate?",
+      "options": [
+        "Enterprise Agreement",
+        "Pay-As-You-Go subscription",
+        "Azure Free account",
+        "Cloud Solution Provider program"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Azure Pricing and Support",
+      "question": "A company has predictable workloads and wants to commit to using specific Azure services for one year to receive discounted pricing. Which purchasing option should they consider?",
+      "options": [
+        "Azure Spot Virtual Machines",
+        "Azure Reservations",
+        "Azure Free account",
+        "Pay-As-You-Go subscription"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Azure Pricing and Support",
+      "question": "A development team needs virtual machines for a short-term project but can tolerate interruptions. Which Azure pricing option would be MOST cost-effective?",
+      "options": [
+        "Reserved Instances",
+        "Pay-As-You-Go",
+        "Spot Virtual Machines",
+        "Dev/Test subscription"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Azure Pricing and Support",
+      "question": "An organization experienced an issue with their Azure services and needs immediate technical support. They have a Basic Support plan. What support options are available to them?",
+      "options": [
+        "24/7 phone and chat support with a 1-hour response time",
+        "Business hours email support only",
+        "Community support and Azure documentation",
+        "Support tickets with an 8-hour response time"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Security, Privacy, Compliance, and Trust",
+      "question": "A company needs to ensure their Azure resources comply with industry-specific regulations. Which Azure service should they use to assess their compliance posture?",
+      "options": [
+        "Azure Sentinel",
+        "Azure Security Center",
+        "Azure Policy",
+        "Microsoft Compliance Manager"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Security, Privacy, Compliance, and Trust",
+      "question": "An organization needs to protect sensitive data stored in their Azure databases. Which feature should they implement to ensure data is encrypted at rest?",
+      "options": [
+        "Transport Layer Security (TLS)",
+        "Azure Information Protection",
+        "Transparent Data Encryption (TDE)",
+        "Network Security Groups"
+      ],
+      "answer": 2
+    }
+  ]
+}
