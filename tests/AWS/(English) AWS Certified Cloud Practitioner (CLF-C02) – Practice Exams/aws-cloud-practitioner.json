@@ -1,0 +1,227 @@
+{
+  "name": "AWS Cloud Practitioner Exam Questions",
+  "questionCount": 20,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "domain": "Cloud Concepts",
+      "question": "A retail company is considering moving their on-premises applications to AWS. Which of the following is a key BUSINESS advantage of this migration?",
+      "options": [
+        "The ability to manage physical servers",
+        "Converting capital expenses to variable operational expenses",
+        "Increased responsibility for hardware maintenance",
+        "Reduced need for application security"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Cloud Concepts",
+      "question": "A startup company needs computing resources that can automatically scale with user demand and only requires payment for actual usage. Which AWS cloud computing characteristic BEST meets these requirements?",
+      "options": [
+        "High Availability",
+        "Global Reach",
+        "Elasticity",
+        "Fault Tolerance"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Security and Compliance",
+      "question": "A company needs to ensure that its AWS resources comply with industry regulations. Which AWS service should they use to continuously monitor their environment for compliance with security standards?",
+      "options": [
+        "AWS Trusted Advisor",
+        "Amazon Inspector",
+        "AWS Config",
+        "AWS Security Hub"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Security and Compliance",
+      "question": "A system administrator needs to provide temporary access to the AWS Management Console for a contractor. Which approach represents the MOST secure method according to AWS best practices?",
+      "options": [
+        "Share the root user credentials",
+        "Create an IAM user with permanent credentials and required permissions",
+        "Create an IAM role with necessary permissions and allow the contractor to assume the role",
+        "Create a new AWS account for the contractor with full administrative privileges"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Technology",
+      "question": "A company needs to host a website with varying traffic patterns and wants to minimize costs while ensuring availability. Which combination of AWS services would be MOST appropriate?",
+      "options": [
+        "Amazon S3 and Amazon CloudFront",
+        "Amazon EC2 and Amazon EBS",
+        "AWS Lambda and Amazon API Gateway",
+        "Amazon RDS and Amazon ElastiCache"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Technology",
+      "question": "A manufacturing company needs to store production data that is accessed frequently for the first month but is rarely accessed afterward. Which AWS storage solution would be MOST cost-effective?",
+      "options": [
+        "Amazon EBS General Purpose SSD volumes",
+        "Amazon S3 Standard storage",
+        "Amazon S3 with Intelligent-Tiering",
+        "Amazon S3 Glacier"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Billing and Pricing",
+      "question": "A finance manager wants to receive notifications when AWS costs exceed expected thresholds. Which AWS service should be used to set up these alerts?",
+      "options": [
+        "AWS Cost Explorer",
+        "AWS Budgets",
+        "AWS Trusted Advisor",
+        "AWS Cost and Usage Report"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Billing and Pricing",
+      "question": "A company plans to run several EC2 instances continuously for the next three years. Which purchasing option would provide the MAXIMUM cost savings?",
+      "options": [
+        "On-Demand Instances",
+        "Reserved Instances with a 3-year term",
+        "Spot Instances",
+        "Dedicated Hosts"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Technology",
+      "question": "A retail company wants to build a highly available application that can handle unpredictable traffic spikes during flash sales. Which AWS service should they use to distribute traffic across multiple EC2 instances?",
+      "options": [
+        "Amazon Route 53",
+        "AWS Global Accelerator",
+        "Amazon CloudFront",
+        "Elastic Load Balancing"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Cloud Concepts",
+      "question": "A healthcare organization needs to process sensitive patient data in AWS while maintaining compliance with regulations. Under the AWS Shared Responsibility Model, which security aspect is the customer's responsibility?",
+      "options": [
+        "Physical security of AWS data centers",
+        "Patching of EC2 instance operating systems",
+        "Maintenance of AWS network infrastructure",
+        "Security of the virtualization layer"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Technology",
+      "question": "A media company needs to store large video files and make them available to users worldwide with low latency. Which combination of AWS services would BEST meet this requirement?",
+      "options": [
+        "Amazon S3 and Amazon CloudFront",
+        "Amazon EBS and Amazon EC2",
+        "AWS Lambda and Amazon API Gateway",
+        "Amazon RDS and Amazon ElastiCache"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Security and Compliance",
+      "question": "A company wants to implement multi-factor authentication for users accessing the AWS Management Console. Which AWS service should they use?",
+      "options": [
+        "Amazon Cognito",
+        "AWS Shield",
+        "AWS Identity and Access Management (IAM)",
+        "AWS Organizations"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Billing and Pricing",
+      "question": "A startup has unpredictable workloads and wants to reduce costs for non-critical batch processing jobs that can be interrupted. Which EC2 pricing model would be MOST cost-effective?",
+      "options": [
+        "On-Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Instances"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Cloud Concepts",
+      "question": "A company is deploying applications in multiple AWS Regions to achieve global reach and fault tolerance. Which AWS architectural principle does this approach BEST represent?",
+      "options": [
+        "Operational Excellence",
+        "Security",
+        "Reliability",
+        "Performance Efficiency"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Technology",
+      "question": "A company needs to run a short-term workload for data processing that will complete in less than 15 minutes. Which AWS service would be MOST cost-effective for this requirement?",
+      "options": [
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon ECS",
+        "AWS Batch"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Security and Compliance",
+      "question": "A financial services company needs to ensure that their AWS resources are deployed only in regions that comply with specific regulations. Which AWS service should they use to enforce this requirement?",
+      "options": [
+        "AWS Config",
+        "AWS Service Control Policies (SCPs)",
+        "AWS WAF",
+        "Amazon GuardDuty"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Cloud Concepts",
+      "question": "A retail company is migrating to AWS and needs to understand how responsibilities are divided between themselves and AWS. According to the AWS Shared Responsibility Model, which is an AWS responsibility?",
+      "options": [
+        "Configuring database access controls",
+        "Managing customer data encryption",
+        "Maintaining the physical infrastructure",
+        "Setting up network access control lists"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Billing and Pricing",
+      "question": "A company with multiple departments wants to track AWS usage costs by department while maintaining a single consolidated bill. Which AWS feature should they implement?",
+      "options": [
+        "AWS Organizations with multiple accounts",
+        "Resource tagging and tag-based cost allocation",
+        "AWS Trusted Advisor cost optimization checks",
+        "AWS Cost Explorer with custom reports"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Technology",
+      "question": "A company wants to automatically back up data from their on-premises servers to AWS for disaster recovery purposes. Which AWS service should they use?",
+      "options": [
+        "AWS Storage Gateway",
+        "Amazon EBS Snapshots",
+        "AWS Backup",
+        "Amazon S3 Cross-Region Replication"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Cloud Concepts",
+      "question": "A company is deploying a new application and wants to test it in a development environment before releasing it to production. Which AWS best practice for cloud architecture should they follow?",
+      "options": [
+        "Use only on-demand instances for all environments",
+        "Deploy directly to production to save time",
+        "Use infrastructure as code to create consistent environments",
+        "Share the same security credentials across all environments"
+      ],
+      "answer": 2
+    }
+  ]
+}
