@@ -1,0 +1,227 @@
+{
+  "name": "Preguntas del Examen AWS Cloud Practitioner en Español",
+  "questionCount": 20,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "domain": "Conceptos de la Nube",
+      "question": "Una empresa de manufactura está evaluando la migración de sus aplicaciones locales a AWS. El CEO está preocupado por los costos iniciales de la migración. ¿Cuál es la principal ventaja ECONÓMICA que debe mencionar el arquitecto de soluciones?",
+      "options": [
+        "Reducción inmediata de todos los costos operativos",
+        "Cambio de gastos de capital fijo a gastos variables",
+        "Eliminación completa de costos de mantenimiento",
+        "Acceso gratuito a todas las características de seguridad avanzada"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Conceptos de la Nube",
+      "question": "Un sitio web de comercio electrónico experimenta picos de tráfico estacionales durante las temporadas de compras. Necesitan asegurarse de que su infraestructura pueda manejar estos picos sin sobreprovisionar recursos. ¿Qué característica de AWS es la MÁS adecuada para este escenario?",
+      "options": [
+        "Alta disponibilidad",
+        "Replicación global",
+        "Elasticidad",
+        "Facturación consolidada"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Seguridad y Conformidad",
+      "question": "Una institución financiera necesita garantizar que todos sus recursos de AWS cumplan con las regulaciones de la industria. ¿Qué servicio de AWS debería utilizar para evaluar continuamente el cumplimiento de las normas de seguridad?",
+      "options": [
+        "Amazon Inspector",
+        "AWS Config",
+        "AWS Trusted Advisor",
+        "AWS Security Hub"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Seguridad y Conformidad",
+      "question": "Un administrador de sistemas necesita proporcionar acceso temporal a la consola de AWS a un auditor externo. Según las mejores prácticas de AWS, ¿cuál es el método MÁS seguro para conceder este acceso?",
+      "options": [
+        "Compartir las credenciales del usuario root",
+        "Crear un usuario IAM con credenciales permanentes",
+        "Configurar un rol de IAM que el auditor pueda asumir temporalmente",
+        "Configurar una VPN dedicada con acceso directo"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Tecnología",
+      "question": "Una empresa de medios necesita almacenar y distribuir archivos de video a usuarios en múltiples países con baja latencia. ¿Qué combinación de servicios de AWS sería la MÁS apropiada?",
+      "options": [
+        "Amazon S3 y Amazon CloudFront",
+        "Amazon EC2 y Amazon EBS",
+        "AWS Lambda y Amazon DynamoDB",
+        "Amazon RDS y Amazon ElastiCache"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Tecnología",
+      "question": "Una empresa de análisis de datos procesa grandes cantidades de información diariamente. Necesitan una solución de almacenamiento que proporcione alto rendimiento para datos a los que se accede con frecuencia, pero que automáticamente mueva datos más antiguos a opciones más económicas. ¿Qué solución de AWS es la MÁS adecuada?",
+      "options": [
+        "Amazon EFS con clases de almacenamiento",
+        "Amazon S3 con Ciclo de Vida",
+        "Amazon EBS con instantáneas programadas",
+        "AWS Backup con políticas de retención"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Facturación y Precios",
+      "question": "El director financiero de una startup necesita una forma de monitorear y controlar los gastos en AWS. Quiere recibir alertas cuando los costos excedan ciertos umbrales. ¿Qué servicio de AWS debería usar?",
+      "options": [
+        "AWS Cost Explorer",
+        "AWS Budgets",
+        "AWS Trusted Advisor",
+        "AWS Cost and Usage Report"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Facturación y Precios",
+      "question": "Una empresa planea ejecutar una aplicación crítica en instancias EC2 durante al menos dos años con uso predecible. ¿Qué opción de compra proporcionaría el MAYOR ahorro de costos?",
+      "options": [
+        "Instancias Bajo Demanda",
+        "Instancias Reservadas",
+        "Instancias Spot",
+        "Hosts Dedicados"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Tecnología",
+      "question": "Un banco está implementando una aplicación de procesamiento de transacciones que debe estar altamente disponible. ¿Cuál es la MEJOR práctica para garantizar la disponibilidad en este escenario?",
+      "options": [
+        "Implementar la aplicación en múltiples zonas de disponibilidad",
+        "Usar una sola instancia EC2 de gran tamaño",
+        "Almacenar todos los datos en almacenamiento local de EC2",
+        "Configurar copias de seguridad diarias a S3 Glacier"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Conceptos de la Nube",
+      "question": "Un hospital está migrando datos de pacientes sensibles a AWS. Según el Modelo de Responsabilidad Compartida de AWS, ¿quién es responsable de la encriptación de los datos en reposo?",
+      "options": [
+        "AWS es completamente responsable de toda la encriptación",
+        "El cliente es responsable de implementar la encriptación adecuada",
+        "AWS y el cliente comparten igualmente esta responsabilidad",
+        "Un tercero auditado por AWS maneja toda la encriptación"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Tecnología",
+      "question": "Una empresa de comercio electrónico necesita una base de datos que escale automáticamente durante las ventas flash y ofrezca alto rendimiento para operaciones de lectura. ¿Qué servicio de AWS es el MÁS adecuado?",
+      "options": [
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "Amazon Redshift",
+        "Amazon Neptune"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Seguridad y Conformidad",
+      "question": "Un administrador de seguridad necesita implementar protección contra ataques DDoS para las aplicaciones web de su empresa. ¿Qué servicio de AWS debería utilizar?",
+      "options": [
+        "AWS WAF",
+        "Amazon GuardDuty",
+        "AWS Shield",
+        "AWS Network Firewall"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Facturación y Precios",
+      "question": "Una empresa de desarrollo de software tiene cargas de trabajo que pueden interrumpirse y reiniciarse sin afectar las operaciones comerciales. ¿Qué modelo de precios de EC2 sería el MÁS rentable?",
+      "options": [
+        "Instancias Bajo Demanda",
+        "Instancias Reservadas",
+        "Instancias Spot",
+        "Hosts Dedicados"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Conceptos de la Nube",
+      "question": "Una empresa de logística está diseñando su arquitectura en AWS y necesita garantizar que sus aplicaciones puedan recuperarse rápidamente de fallos. ¿Qué pilar del AWS Well-Architected Framework están implementando principalmente?",
+      "options": [
+        "Excelencia operativa",
+        "Seguridad",
+        "Fiabilidad",
+        "Optimización de costos"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Tecnología",
+      "question": "Un desarrollador necesita ejecutar código en respuesta a cambios en un bucket de S3 sin administrar ninguna infraestructura. ¿Qué servicio de AWS debería utilizar?",
+      "options": [
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon ECS",
+        "AWS Elastic Beanstalk"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Seguridad y Conformidad",
+      "question": "Una empresa multinacional necesita asegurarse de que sus recursos de AWS se implementen solo en regiones que cumplan con regulaciones específicas. ¿Qué servicio o característica de AWS deberían utilizar para aplicar esta restricción?",
+      "options": [
+        "AWS Config",
+        "Políticas de Control de Servicios (SCPs) en AWS Organizations",
+        "Amazon Macie",
+        "AWS IAM Conditions"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Conceptos de la Nube",
+      "question": "Un ingeniero de DevOps está explicando el Modelo de Responsabilidad Compartida de AWS a su equipo. ¿Cuál de las siguientes responsabilidades corresponde a AWS?",
+      "options": [
+        "Configuración de grupos de seguridad",
+        "Cifrado de datos de clientes",
+        "Mantenimiento del hardware físico",
+        "Gestión de credenciales de IAM"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Facturación y Precios",
+      "question": "Una empresa con múltiples departamentos quiere rastrear los costos de AWS por departamento mientras mantiene una sola factura consolidada. ¿Qué característica de AWS deberían implementar?",
+      "options": [
+        "AWS Organizations con múltiples cuentas",
+        "Etiquetado de recursos y asignación de costos basada en etiquetas",
+        "Cheques de optimización de costos de AWS Trusted Advisor",
+        "AWS Cost Explorer con informes personalizados"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Tecnología",
+      "question": "Un canal de YouTube sobre tecnología necesita ejecutar análisis complejos de datos de comentarios utilizando tecnologías de big data. ¿Qué servicio de AWS es el MÁS adecuado para este escenario?",
+      "options": [
+        "Amazon Athena",
+        "Amazon EMR",
+        "Amazon Redshift",
+        "Amazon RDS"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Conceptos de la Nube",
+      "question": "Una empresa está desarrollando una nueva aplicación y necesita implementarla en múltiples entornos (desarrollo, prueba, producción). ¿Qué enfoque representa la MEJOR práctica de AWS?",
+      "options": [
+        "Utilizar la misma cuenta de AWS para todos los entornos",
+        "Implementar directamente en producción para ahorrar tiempo",
+        "Utilizar infraestructura como código para crear entornos consistentes",
+        "Compartir las mismas credenciales de seguridad en todos los entornos"
+      ],
+      "answer": 2
+    }
+  ]
+}
