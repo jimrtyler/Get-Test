@@ -1,0 +1,227 @@
+{
+  "name": "AWS 클라우드 실무자 시험 문제 (한국어)",
+  "questionCount": 20,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "domain": "클라우드 개념",
+      "question": "한 소매 기업이 온프레미스 애플리케이션을 AWS로 이전하는 것을 고려하고 있습니다. 이 마이그레이션의 주요 비즈니스 이점은 무엇입니까?",
+      "options": [
+        "물리적 서버 관리 능력",
+        "자본 비용을 가변적인 운영 비용으로 전환",
+        "하드웨어 유지 관리에 대한 책임 증가",
+        "애플리케이션 보안에 대한 필요성 감소"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "클라우드 개념",
+      "question": "한 전자상거래 웹사이트가 계절별 쇼핑 시즌 동안 트래픽 급증을 경험합니다. 리소스를 과다 프로비저닝하지 않고 이러한 급증을 처리할 수 있는 인프라가 필요합니다. 이 시나리오에 가장 적합한 AWS의 특성은 무엇입니까?",
+      "options": [
+        "고가용성",
+        "글로벌 도달 범위",
+        "탄력성",
+        "내결함성"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "보안 및 규정 준수",
+      "question": "한 금융 기관이 모든 AWS 리소스가 업계 규정을 준수하도록 보장해야 합니다. 보안 표준 준수를 지속적으로 평가하기 위해 어떤 AWS 서비스를 사용해야 합니까?",
+      "options": [
+        "Amazon Inspector",
+        "AWS Config",
+        "AWS Trusted Advisor",
+        "AWS Security Hub"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "보안 및 규정 준수",
+      "question": "시스템 관리자가 외부 감사관에게 AWS Management Console에 대한 임시 액세스를 제공해야 합니다. AWS 모범 사례에 따르면, 이 액세스를 부여하는 가장 안전한 방법은 무엇입니까?",
+      "options": [
+        "루트 사용자 자격 증명 공유",
+        "영구 자격 증명이 있는 IAM 사용자 생성",
+        "감사관이 일시적으로 맡을 수 있는 IAM 역할 구성",
+        "직접 액세스가 가능한 전용 VPN 구성"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "기술",
+      "question": "미디어 회사가 여러 국가의 사용자에게 낮은 지연 시간으로 비디오 파일을 저장하고 배포해야 합니다. 가장 적합한 AWS 서비스 조합은 무엇입니까?",
+      "options": [
+        "Amazon S3와 Amazon CloudFront",
+        "Amazon EC2와 Amazon EBS",
+        "AWS Lambda와 Amazon DynamoDB",
+        "Amazon RDS와 Amazon ElastiCache"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "기술",
+      "question": "데이터 분석 회사가 매일 대량의 정보를 처리합니다. 자주 접근하는 데이터에 대해 높은 성능을 제공하면서 오래된 데이터를 자동으로 저렴한 옵션으로 이동시키는 스토리지 솔루션이 필요합니다. 가장 적합한 AWS 솔루션은 무엇입니까?",
+      "options": [
+        "스토리지 클래스가 있는 Amazon EFS",
+        "수명 주기 정책이 있는 Amazon S3",
+        "예약된 스냅샷이 있는 Amazon EBS",
+        "보존 정책이 있는 AWS Backup"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "결제 및 가격 책정",
+      "question": "스타트업의 재무 책임자가 AWS 지출을 모니터링하고 제어할 방법이 필요합니다. 비용이 특정 임계값을 초과할 때 알림을 받고 싶어합니다. 어떤 AWS 서비스를 사용해야 합니까?",
+      "options": [
+        "AWS Cost Explorer",
+        "AWS Budgets",
+        "AWS Trusted Advisor",
+        "AWS Cost and Usage Report"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "결제 및 가격 책정",
+      "question": "한 회사가 적어도 2년 동안 예측 가능한 사용량으로 EC2 인스턴스에서 중요한 애플리케이션을 실행할 계획입니다. 가장 큰 비용 절감을 제공하는 구매 옵션은 무엇입니까?",
+      "options": [
+        "온디맨드 인스턴스",
+        "예약 인스턴스",
+        "스팟 인스턴스",
+        "전용 호스트"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "기술",
+      "question": "은행이 고가용성이 필요한 트랜잭션 처리 애플리케이션을 구현하고 있습니다. 이 시나리오에서 가용성을 보장하기 위한 최선의 방법은 무엇입니까?",
+      "options": [
+        "여러 가용 영역에 애플리케이션 배포",
+        "대형 단일 EC2 인스턴스 사용",
+        "모든 데이터를 EC2 로컬 스토리지에 저장",
+        "S3 Glacier에 일일 백업 구성"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "클라우드 개념",
+      "question": "한 병원이 민감한 환자 데이터를 AWS로 마이그레이션하고 있습니다. AWS 공동 책임 모델에 따르면, 저장된 데이터의 암호화에 대한 책임은 누구에게 있습니까?",
+      "options": [
+        "AWS가 모든 암호화에 대해 완전히 책임짐",
+        "고객이 적절한 암호화 구현에 대한 책임이 있음",
+        "AWS와 고객이 이 책임을 동등하게 공유함",
+        "AWS가 감사한 제3자가 모든 암호화를 처리함"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "기술",
+      "question": "전자상거래 기업이 플래시 세일 중에 자동으로 확장되고 읽기 작업에 대해 높은 성능을 제공하는 데이터베이스가 필요합니다. 가장 적합한 AWS 서비스는 무엇입니까?",
+      "options": [
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "Amazon Redshift",
+        "Amazon Neptune"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "보안 및 규정 준수",
+      "question": "보안 관리자가 회사의 웹 애플리케이션에 대한 DDoS 공격 보호를 구현해야 합니다. 어떤 AWS 서비스를 사용해야 합니까?",
+      "options": [
+        "AWS WAF",
+        "Amazon GuardDuty",
+        "AWS Shield",
+        "AWS Network Firewall"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "결제 및 가격 책정",
+      "question": "소프트웨어 개발 회사가 비즈니스 운영에 영향을 주지 않고 중단되고 다시 시작될 수 있는 워크로드를 가지고 있습니다. 가장 비용 효율적인 EC2 가격 모델은 무엇입니까?",
+      "options": [
+        "온디맨드 인스턴스",
+        "예약 인스턴스",
+        "스팟 인스턴스",
+        "전용 인스턴스"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "클라우드 개념",
+      "question": "물류 회사가 AWS에서 아키텍처를 설계하고 있으며 애플리케이션이 장애로부터 빠르게 복구될 수 있도록 해야 합니다. 이들이 주로 구현하고 있는 AWS 잘 설계된 프레임워크의 기둥은 무엇입니까?",
+      "options": [
+        "운영 우수성",
+        "보안",
+        "신뢰성",
+        "비용 최적화"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "기술",
+      "question": "개발자가 인프라를 관리하지 않고 S3 버킷의 변경에 대응하여 코드를 실행해야 합니다. 어떤 AWS 서비스를 사용해야 합니까?",
+      "options": [
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon ECS",
+        "AWS Elastic Beanstalk"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "보안 및 규정 준수",
+      "question": "다국적 기업이 특정 규정을 준수하는 지역에만 AWS 리소스가 배포되도록 해야 합니다. 이 제한을 적용하기 위해 어떤 AWS 서비스나 기능을 사용해야 합니까?",
+      "options": [
+        "AWS Config",
+        "AWS Organizations의 서비스 제어 정책(SCPs)",
+        "Amazon Macie",
+        "AWS IAM 조건"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "클라우드 개념",
+      "question": "DevOps 엔지니어가 팀에게 AWS 공동 책임 모델을 설명하고 있습니다. 다음 중 AWS의 책임은 무엇입니까?",
+      "options": [
+        "보안 그룹 구성",
+        "고객 데이터 암호화",
+        "물리적 하드웨어 유지 관리",
+        "IAM 자격 증명 관리"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "결제 및 가격 책정",
+      "question": "여러 부서가 있는 회사가 단일 통합 청구서를 유지하면서 부서별로 AWS 비용을 추적하고자 합니다. 어떤 AWS 기능을 구현해야 합니까?",
+      "options": [
+        "여러 계정이 있는 AWS Organizations",
+        "리소스 태깅 및 태그 기반 비용 할당",
+        "AWS Trusted Advisor 비용 최적화 검사",
+        "사용자 지정 보고서가 있는 AWS Cost Explorer"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "기술",
+      "question": "기술 관련 YouTube 채널이 빅 데이터 기술을 사용하여 댓글 데이터에 대한 복잡한 분석을 실행해야 합니다. 이 시나리오에 가장 적합한 AWS 서비스는 무엇입니까?",
+      "options": [
+        "Amazon Athena",
+        "Amazon EMR",
+        "Amazon Redshift",
+        "Amazon RDS"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "클라우드 개념",
+      "question": "한 회사가 새로운 애플리케이션을 개발하고 있으며 여러 환경(개발, 테스트, 생산)에 배포해야 합니다. AWS의 최선의 방법을 나타내는 접근 방식은 무엇입니까?",
+      "options": [
+        "모든 환경에 동일한 AWS 계정 사용",
+        "시간을 절약하기 위해 직접 생산 환경에 배포",
+        "일관된 환경을 만들기 위해 코드로서의 인프라 사용",
+        "모든 환경에서 동일한 보안 자격 증명 공유"
+      ],
+      "answer": 2
+    }
+  ]
+}
