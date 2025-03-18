@@ -1,0 +1,227 @@
+{
+  "name": "Michigan Life Insurance Practice Exam",
+  "questionCount": 20,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "domain": "System Management",
+      "question": "A Linux administrator needs to view real-time information about system processes, including CPU and memory usage. Which command would be MOST appropriate for this task?",
+      "options": [
+        "ps aux",
+        "top",
+        "free -m",
+        "cat /proc/cpuinfo"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "System Management",
+      "question": "A system administrator notices that a Linux server's root filesystem is nearly full. After investigating, they determine that log files in /var/log are consuming most of the space. Which command would be the MOST appropriate to use to identify the largest files?",
+      "options": [
+        "ls -la /var/log",
+        "df -h /var/log",
+        "du -sh /var/log/*",
+        "find /var/log -type f"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "System Management",
+      "question": "A Linux administrator needs to schedule a system backup script to run every day at 2:30 AM. Which tool should be used?",
+      "options": [
+        "at",
+        "cron",
+        "systemd timer",
+        "anacron"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "System Management",
+      "question": "A Linux system administrator needs to monitor the disk I/O performance on a database server that is experiencing slowdowns. Which command would provide the MOST useful information?",
+      "options": [
+        "free",
+        "top",
+        "vmstat",
+        "iostat"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Security",
+      "question": "A Linux administrator needs to configure a server to allow a specific user to run only certain commands with root privileges without knowing the root password. Which of the following would be the MOST appropriate solution?",
+      "options": [
+        "Add the user to the wheel group",
+        "Configure appropriate sudo rules in /etc/sudoers",
+        "Create a setuid script that runs the commands",
+        "Share the root password but instruct the user to only run specific commands"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Security",
+      "question": "A Linux administrator needs to check which ports are listening for connections on a server. Which command would provide this information?",
+      "options": [
+        "lsof -i",
+        "ps aux",
+        "netstat -tuln",
+        "ifconfig -a"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Security",
+      "question": "A security audit reveals that a Linux server has unnecessary services running. The administrator needs to disable a service and ensure it doesn't start at boot time on a system using systemd. Which commands should be used?",
+      "options": [
+        "service stop <service> and update-rc.d <service> disable",
+        "systemctl stop <service> and systemctl disable <service>",
+        "kill <pid> and rm /etc/init.d/<service>",
+        "/etc/init.d/<service> stop and chkconfig <service> off"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Networking",
+      "question": "A Linux administrator needs to allow HTTP and HTTPS traffic through the system's firewall using firewalld. Which command would accomplish this task?",
+      "options": [
+        "iptables -A INPUT -p tcp --dport 80,443 -j ACCEPT",
+        "ufw allow 80/tcp and ufw allow 443/tcp",
+        "firewall-cmd --permanent --add-service=http --add-service=https",
+        "system-config-firewall-tui"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Networking",
+      "question": "A Linux administrator needs to check DNS resolution for a specific hostname from a particular DNS server. Which command would be MOST appropriate?",
+      "options": [
+        "host example.com 8.8.8.8",
+        "ping example.com",
+        "traceroute example.com",
+        "nslookup"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Networking",
+      "question": "A Linux administrator needs to securely copy files from a remote server to the local system. Which command should be used?",
+      "options": [
+        "ftp remote_server",
+        "scp remote_server:/path/to/file /local/path/",
+        "wget http://remote_server/path/to/file",
+        "rsync remote_server"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Storage Management",
+      "question": "A Linux administrator needs to create a 2GB swap file on a system that is running low on memory. Which sequence of commands would correctly create and enable the swap file?",
+      "options": [
+        "dd if=/dev/zero of=/swapfile bs=1M count=2048 && mkswap /swapfile && swapon /swapfile",
+        "touch /swapfile && fallocate -l 2G /swapfile && mkfs.swap /swapfile && swapon /swapfile",
+        "mkdir /swapfile && mount -t swap /dev/sda2 /swapfile",
+        "swapon -a && echo '/swapfile swap swap defaults 0 0' >> /etc/fstab"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Storage Management",
+      "question": "A Linux system administrator needs to determine the filesystem type of a mounted partition. Which command would provide this information?",
+      "options": [
+        "lsblk",
+        "blkid",
+        "mount",
+        "fdisk -l"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Storage Management",
+      "question": "A Linux administrator needs to resize an LVM logical volume to add more space. The volume group has available space. Which commands should be used?",
+      "options": [
+        "resize2fs /dev/mapper/vg-lv",
+        "lvresize -L +1G /dev/mapper/vg-lv followed by resize2fs /dev/mapper/vg-lv",
+        "fdisk /dev/sda and add a new partition, then vgextend and lvextend",
+        "extend /dev/mapper/vg-lv 1G"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Shell Scripting",
+      "question": "A Linux administrator needs to create a backup script that will archive all files in a directory that have been modified in the last 24 hours. Which command would be MOST useful in this script?",
+      "options": [
+        "ls -la | grep $(date)",
+        "find /path/to/dir -mtime -1 -type f",
+        "grep -r 'modified' /path/to/dir",
+        "tar -cf backup.tar /path/to/dir"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Shell Scripting",
+      "question": "A Linux administrator has written a shell script that needs to process a list of servers from a file, one server per line. Which of the following code snippets would correctly read the file line by line?",
+      "options": [
+        "cat servers.txt | while read server; do ssh $server uptime; done",
+        "for server in servers.txt; do ssh $server uptime; done",
+        "while server in $(cat servers.txt); do ssh $server uptime; done",
+        "for server in $(ls servers.txt); do ssh $server uptime; done"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Shell Scripting",
+      "question": "A Linux administrator needs to create a script that checks if a service is running and starts it if it's not. Which of the following scripts would accomplish this task?",
+      "options": [
+        "if [ ps aux | grep httpd ]; then systemctl start httpd; fi",
+        "ps aux | grep httpd && systemctl start httpd",
+        "systemctl status httpd > /dev/null 2>&1 || systemctl start httpd",
+        "systemctl start httpd; systemctl status httpd"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Package Management",
+      "question": "A Linux administrator needs to install a package on an Ubuntu server but doesn't know the exact package name. Which command would help identify available packages matching a keyword?",
+      "options": [
+        "yum search keyword",
+        "apt search keyword",
+        "dpkg -l | grep keyword",
+        "find /var/cache/apt keyword"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Package Management",
+      "question": "A Linux administrator needs to identify which package provides a specific file on a Red Hat-based system. Which command would be MOST appropriate?",
+      "options": [
+        "apt-file search filename",
+        "dpkg -S filename",
+        "rpm -qf /path/to/filename",
+        "yum provides filename"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Virtualization & Containers",
+      "question": "A Linux administrator needs to set up a lightweight environment for testing applications with specific library versions without affecting the host system. Which technology would be MOST appropriate?",
+      "options": [
+        "Virtual machine using KVM",
+        "Docker container",
+        "Chroot environment",
+        "Screen or tmux session"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Troubleshooting",
+      "question": "A Linux system is experiencing high load averages, but the CPU utilization is low. Which of the following is the MOST likely cause?",
+      "options": [
+        "Memory exhaustion leading to swapping",
+        "Too many processes running simultaneously",
+        "I/O bottleneck with processes waiting for disk operations",
+        "Network saturation"
+      ],
+      "answer": 2
+    }
+  ]
+}
