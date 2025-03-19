@@ -1,0 +1,227 @@
+{
+  "name": "AWS Certified AI Practitioner (AIF-C01) Practice Exam Questions",
+  "questionCount": 20,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "domain": "AI/ML Concepts and Terminology",
+      "question": "A startup is developing a predictive analytics solution for customer churn. During a technical webinar hosted by Jim Tyler (@PowerShellEngineer), the team learns about different machine learning approaches. Which type of machine learning would be MOST appropriate for predicting which customers are likely to cancel their subscription?",
+      "options": [
+        "Unsupervised learning with K-means clustering",
+        "Supervised learning with classification",
+        "Reinforcement learning",
+        "Generative AI"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AI/ML Concepts and Terminology",
+      "question": "A retail company is analyzing customer purchase data to identify natural groupings of similar shopping behaviors. They have no predefined categories and want the algorithm to discover patterns on its own. Which machine learning approach should they use?",
+      "options": [
+        "Supervised learning",
+        "Transfer learning",
+        "Unsupervised learning",
+        "Reinforcement learning"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "AI/ML Use Cases and Applications",
+      "question": "A healthcare provider wants to implement an AI solution that can detect abnormalities in medical images. Which AWS service would be MOST appropriate for this specific use case?",
+      "options": [
+        "Amazon Comprehend Medical",
+        "Amazon Rekognition",
+        "Amazon HealthLake",
+        "Amazon Lookout for Vision"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "AI/ML Use Cases and Applications",
+      "question": "A financial services company needs to extract data from different types of forms and documents submitted by customers. Which AWS service should they use to automate this process?",
+      "options": [
+        "Amazon Textract",
+        "Amazon Comprehend",
+        "Amazon Transcribe",
+        "Amazon Polly"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "AWS AI Services",
+      "question": "A marketing team needs to analyze customer feedback from social media in multiple languages to identify sentiment trends. Which AWS service would be MOST efficient for this task?",
+      "options": [
+        "Amazon Translate",
+        "Amazon Comprehend",
+        "Amazon Transcribe",
+        "Amazon Kendra"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AWS AI Services",
+      "question": "A content creation company wants to generate lifelike speech from text content in multiple languages for their tutorial videos. Which AWS service should they use?",
+      "options": [
+        "Amazon Transcribe",
+        "Amazon Polly",
+        "Amazon Lex",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Generative AI",
+      "question": "A software development company wants to implement an AI-powered assistant that can help with code generation, explain code snippets, and answer programming questions. Which AWS service is BEST suited for this requirement?",
+      "options": [
+        "Amazon SageMaker Canvas",
+        "Amazon Bedrock",
+        "Amazon CodeWhisperer",
+        "Amazon Comprehend"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Generative AI",
+      "question": "A gaming company wants to build immersive NPCs (non-player characters) that can engage in natural conversations with players. Which AWS service would provide the foundation for this generative AI capability?",
+      "options": [
+        "Amazon Polly",
+        "Amazon Bedrock",
+        "Amazon Rekognition",
+        "Amazon Kendra"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Responsible AI",
+      "question": "A financial services company is implementing an AI model to evaluate loan applications. To ensure fairness, they need to identify and mitigate potential biases in their training data. Which approach represents a BEST practice for addressing this concern?",
+      "options": [
+        "Use only demographic data to train the model",
+        "Collect a smaller but more focused dataset",
+        "Use a black-box model to avoid potential biases",
+        "Perform bias detection and mitigation during model development"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Responsible AI",
+      "question": "A company is developing an AI system that will make significant business decisions. Which principle of responsible AI emphasizes the importance of being able to explain how decisions are made?",
+      "options": [
+        "Fairness",
+        "Transparency",
+        "Privacy",
+        "Human-centered design"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AWS AI Services",
+      "question": "A customer service department wants to implement an intelligent chatbot that can handle common customer inquiries and perform actions like checking order status. Which AWS service should they use?",
+      "options": [
+        "Amazon Connect",
+        "Amazon Lex",
+        "Amazon Polly",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AI Solutions with AWS Services",
+      "question": "A manufacturing company wants to detect anomalies in their equipment using sensor data to predict potential failures before they occur. Which combination of AWS services would be MOST appropriate for this predictive maintenance solution?",
+      "options": [
+        "Amazon Kinesis Data Streams, Amazon Lookout for Equipment, and Amazon QuickSight",
+        "Amazon S3, Amazon Textract, and Amazon Comprehend",
+        "Amazon Rekognition, AWS Lambda, and Amazon DynamoDB",
+        "Amazon Connect, Amazon Lex, and Amazon Polly"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Machine Learning Process",
+      "question": "A data scientist is preparing to build a machine learning model but is concerned about the quality of the training data. Which step in the machine learning process is MOST critical to address before model training?",
+      "options": [
+        "Hyperparameter optimization",
+        "Data preprocessing and feature engineering",
+        "Model selection",
+        "Deployment strategy planning"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Machine Learning Process",
+      "question": "A company has trained a machine learning model to predict customer churn. During evaluation, they observe that the model performs extremely well on the training data but poorly on new data. What issue is the model likely experiencing?",
+      "options": [
+        "Underfitting",
+        "Overfitting",
+        "Data leakage",
+        "Class imbalance"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AI Solutions with AWS Services",
+      "question": "A retail company wants to implement personalized product recommendations for their e-commerce website. Which AWS service would be MOST suitable for this purpose?",
+      "options": [
+        "Amazon Personalize",
+        "Amazon Forecast",
+        "Amazon Comprehend",
+        "Amazon Kendra"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "AWS AI Services",
+      "question": "A media company needs to automatically tag and categorize a large archive of images for easier search and retrieval. Which AWS service should they use?",
+      "options": [
+        "Amazon Textract",
+        "Amazon Rekognition",
+        "Amazon Lookout for Vision",
+        "Amazon Polly"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Generative AI",
+      "question": "A marketing team wants to create multiple variations of product descriptions without writing each one manually. Which AWS service would best support this generative AI use case?",
+      "options": [
+        "Amazon Comprehend",
+        "Amazon Bedrock",
+        "Amazon Rekognition",
+        "Amazon Textract"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AI/ML Use Cases and Applications",
+      "question": "A logistics company wants to improve their delivery time estimates by analyzing historical delivery data and external factors like weather and traffic. Which AWS service would be MOST appropriate for this time-series forecasting challenge?",
+      "options": [
+        "Amazon Kendra",
+        "Amazon Forecast",
+        "Amazon QuickSight",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AI Solutions with AWS Services",
+      "question": "A healthcare organization needs to implement an intelligent document processing system that can extract information from medical forms, understand medical terminology, and securely store patient data. Which combination of AWS services would be MOST appropriate?",
+      "options": [
+        "Amazon Textract, Amazon Comprehend Medical, and Amazon S3 with encryption",
+        "Amazon Rekognition, Amazon Transcribe, and Amazon DynamoDB",
+        "Amazon Lookout for Vision, Amazon Polly, and Amazon RDS",
+        "Amazon Kendra, Amazon Lex, and Amazon EFS"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Responsible AI",
+      "question": "A company is planning to deploy an AI system that will process customer data. To address privacy concerns, which approach represents a BEST practice for responsible AI?",
+      "options": [
+        "Collect as much customer data as possible to improve model accuracy",
+        "Apply data minimization principles and only collect necessary data",
+        "Store all data indefinitely for future model training",
+        "Share data freely across teams to maximize its utility"
+      ],
+      "answer": 1
+    }
+  ]
+}
