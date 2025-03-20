@@ -1,0 +1,227 @@
+{
+  "name": "Perguntas do Exame Prático para AWS Certified AI Practitioner (AIF-C01)",
+  "questionCount": 20,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "domain": "Conceitos e Terminologia de IA/ML",
+      "question": "Uma startup está desenvolvendo uma solução de análise preditiva para abandono de clientes. Durante um webinar técnico apresentado por Jim Tyler (@PowerShellEngineer), a equipe aprende sobre diferentes abordagens de machine learning. Qual tipo de machine learning seria MAIS apropriado para prever quais clientes provavelmente cancelarão sua assinatura?",
+      "options": [
+        "Aprendizado não supervisionado com agrupamento K-means",
+        "Aprendizado supervisionado com classificação",
+        "Aprendizado por reforço",
+        "IA Generativa"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Conceitos e Terminologia de IA/ML",
+      "question": "Uma empresa de varejo está analisando dados de compras de clientes para identificar agrupamentos naturais de comportamentos de compra similares. Eles não têm categorias predefinidas e querem que o algoritmo descubra padrões por conta própria. Qual abordagem de machine learning eles devem usar?",
+      "options": [
+        "Aprendizado supervisionado",
+        "Aprendizado por transferência",
+        "Aprendizado não supervisionado",
+        "Aprendizado por reforço"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Casos de Uso e Aplicações de IA/ML",
+      "question": "Um provedor de saúde quer implementar uma solução de IA que possa detectar anomalias em imagens médicas. Qual serviço da AWS seria MAIS apropriado para este caso de uso específico?",
+      "options": [
+        "Amazon Comprehend Medical",
+        "Amazon Rekognition",
+        "Amazon HealthLake",
+        "Amazon Lookout for Vision"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Casos de Uso e Aplicações de IA/ML",
+      "question": "Uma empresa de serviços financeiros precisa extrair dados de diferentes tipos de formulários e documentos enviados pelos clientes. Qual serviço da AWS eles devem usar para automatizar este processo?",
+      "options": [
+        "Amazon Textract",
+        "Amazon Comprehend",
+        "Amazon Transcribe",
+        "Amazon Polly"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Serviços de IA da AWS",
+      "question": "Uma equipe de marketing precisa analisar feedback de clientes de mídias sociais em vários idiomas para identificar tendências de sentimento. Qual serviço da AWS seria MAIS eficiente para esta tarefa?",
+      "options": [
+        "Amazon Translate",
+        "Amazon Comprehend",
+        "Amazon Transcribe",
+        "Amazon Kendra"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Serviços de IA da AWS",
+      "question": "Uma empresa de criação de conteúdo quer gerar fala realista a partir de conteúdo de texto em vários idiomas para seus vídeos tutoriais. Qual serviço da AWS eles devem usar?",
+      "options": [
+        "Amazon Transcribe",
+        "Amazon Polly",
+        "Amazon Lex",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "IA Generativa",
+      "question": "Uma empresa de desenvolvimento de software quer implementar um assistente baseado em IA que possa ajudar com a geração de código, explicar trechos de código e responder a perguntas de programação. Qual serviço da AWS é MAIS adequado para esta necessidade?",
+      "options": [
+        "Amazon SageMaker Canvas",
+        "Amazon Bedrock",
+        "Amazon CodeWhisperer",
+        "Amazon Comprehend"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "IA Generativa",
+      "question": "Uma empresa de jogos quer criar NPCs (personagens não jogáveis) imersivos que possam manter conversas naturais com os jogadores. Qual serviço da AWS forneceria a base para esta capacidade de IA generativa?",
+      "options": [
+        "Amazon Polly",
+        "Amazon Bedrock",
+        "Amazon Rekognition",
+        "Amazon Kendra"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "IA Responsável",
+      "question": "Uma empresa de serviços financeiros está implementando um modelo de IA para avaliar solicitações de empréstimo. Para garantir a justiça, eles precisam identificar e mitigar possíveis vieses em seus dados de treinamento. Qual abordagem representa uma MELHOR prática para lidar com esta preocupação?",
+      "options": [
+        "Usar apenas dados demográficos para treinar o modelo",
+        "Coletar um conjunto de dados menor, mas mais focado",
+        "Usar um modelo de caixa preta para evitar possíveis vieses",
+        "Realizar detecção e mitigação de viés durante o desenvolvimento do modelo"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "IA Responsável",
+      "question": "Uma empresa está desenvolvendo um sistema de IA que tomará decisões empresariais significativas. Qual princípio de IA responsável enfatiza a importância de ser capaz de explicar como as decisões são tomadas?",
+      "options": [
+        "Justiça",
+        "Transparência",
+        "Privacidade",
+        "Design centrado no ser humano"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Serviços de IA da AWS",
+      "question": "Um departamento de atendimento ao cliente quer implementar um chatbot inteligente que possa lidar com consultas comuns de clientes e realizar ações como verificar o status de pedidos. Qual serviço da AWS eles devem usar?",
+      "options": [
+        "Amazon Connect",
+        "Amazon Lex",
+        "Amazon Polly",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Soluções de IA com Serviços AWS",
+      "question": "Uma empresa de manufatura quer detectar anomalias em seus equipamentos usando dados de sensores para prever possíveis falhas antes que ocorram. Qual combinação de serviços AWS seria MAIS apropriada para esta solução de manutenção preditiva?",
+      "options": [
+        "Amazon Kinesis Data Streams, Amazon Lookout for Equipment e Amazon QuickSight",
+        "Amazon S3, Amazon Textract e Amazon Comprehend",
+        "Amazon Rekognition, AWS Lambda e Amazon DynamoDB",
+        "Amazon Connect, Amazon Lex e Amazon Polly"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Processo de Machine Learning",
+      "question": "Um cientista de dados está se preparando para construir um modelo de machine learning, mas está preocupado com a qualidade dos dados de treinamento. Qual etapa no processo de machine learning é MAIS crítica para ser abordada antes do treinamento do modelo?",
+      "options": [
+        "Otimização de hiperparâmetros",
+        "Pré-processamento de dados e engenharia de características",
+        "Seleção de modelo",
+        "Planejamento de estratégia de implantação"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Processo de Machine Learning",
+      "question": "Uma empresa treinou um modelo de machine learning para prever o abandono de clientes. Durante a avaliação, eles observam que o modelo tem um desempenho extremamente bom nos dados de treinamento, mas ruim em novos dados. Que problema o modelo provavelmente está experimentando?",
+      "options": [
+        "Underfitting (subajuste)",
+        "Overfitting (sobreajuste)",
+        "Vazamento de dados",
+        "Desequilíbrio de classe"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Soluções de IA com Serviços AWS",
+      "question": "Uma empresa de varejo quer implementar recomendações personalizadas de produtos para seu site de comércio eletrônico. Qual serviço da AWS seria MAIS adequado para este propósito?",
+      "options": [
+        "Amazon Personalize",
+        "Amazon Forecast",
+        "Amazon Comprehend",
+        "Amazon Kendra"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Serviços de IA da AWS",
+      "question": "Uma empresa de mídia precisa marcar e categorizar automaticamente um grande arquivo de imagens para facilitar a busca e recuperação. Qual serviço da AWS eles devem usar?",
+      "options": [
+        "Amazon Textract",
+        "Amazon Rekognition",
+        "Amazon Lookout for Vision",
+        "Amazon Polly"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "IA Generativa",
+      "question": "Uma equipe de marketing quer criar múltiplas variações de descrições de produtos sem escrever cada uma manualmente. Qual serviço da AWS melhor suportaria este caso de uso de IA generativa?",
+      "options": [
+        "Amazon Comprehend",
+        "Amazon Bedrock",
+        "Amazon Rekognition",
+        "Amazon Textract"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Casos de Uso e Aplicações de IA/ML",
+      "question": "Uma empresa de logística quer melhorar suas estimativas de tempo de entrega analisando dados históricos de entrega e fatores externos como clima e tráfego. Qual serviço da AWS seria MAIS apropriado para este desafio de previsão de séries temporais?",
+      "options": [
+        "Amazon Kendra",
+        "Amazon Forecast",
+        "Amazon QuickSight",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Soluções de IA com Serviços AWS",
+      "question": "Uma organização de saúde precisa implementar um sistema inteligente de processamento de documentos que possa extrair informações de formulários médicos, compreender terminologia médica e armazenar dados de pacientes com segurança. Qual combinação de serviços da AWS seria MAIS apropriada?",
+      "options": [
+        "Amazon Textract, Amazon Comprehend Medical e Amazon S3 com criptografia",
+        "Amazon Rekognition, Amazon Transcribe e Amazon DynamoDB",
+        "Amazon Lookout for Vision, Amazon Polly e Amazon RDS",
+        "Amazon Kendra, Amazon Lex e Amazon EFS"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "IA Responsável",
+      "question": "Uma empresa está planejando implantar um sistema de IA que processará dados de clientes. Para abordar preocupações com privacidade, qual abordagem representa uma MELHOR prática para IA responsável?",
+      "options": [
+        "Coletar o máximo possível de dados de clientes para melhorar a precisão do modelo",
+        "Aplicar princípios de minimização de dados e coletar apenas dados necessários",
+        "Armazenar todos os dados indefinidamente para treinamento futuro de modelos",
+        "Compartilhar dados livremente entre equipes para maximizar sua utilidade"
+      ],
+      "answer": 1
+    }
+  ]
+}
