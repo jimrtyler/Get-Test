@@ -1,0 +1,227 @@
+{
+  "name": "AWS 認定 AI プラクティショナー (AIF-C01) 模擬試験問題",
+  "questionCount": 20,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "domain": "AI/ML の概念と用語",
+      "question": "あるスタートアップが顧客離れの予測分析ソリューションを開発しています。Jim Tyler（@PowerShellEngineer）が主催する技術ウェビナーで、チームは様々な機械学習アプローチについて学びました。サブスクリプションをキャンセルする可能性が高い顧客を予測するには、どのタイプの機械学習が最も適切ですか？",
+      "options": [
+        "K平均クラスタリングを用いた教師なし学習",
+        "分類を用いた教師あり学習",
+        "強化学習",
+        "生成AI"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AI/ML の概念と用語",
+      "question": "小売企業が顧客の購買データを分析して、類似した購買行動の自然なグループを特定しようとしています。事前に定義されたカテゴリはなく、アルゴリズムが自力でパターンを発見することを望んでいます。どの機械学習アプローチを使用すべきですか？",
+      "options": [
+        "教師あり学習",
+        "転移学習",
+        "教師なし学習",
+        "強化学習"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "AI/ML のユースケースと応用",
+      "question": "ある医療プロバイダーが医療画像の異常を検出できるAIソリューションを実装したいと考えています。この特定のユースケースに最も適したAWSサービスはどれですか？",
+      "options": [
+        "Amazon Comprehend Medical",
+        "Amazon Rekognition",
+        "Amazon HealthLake",
+        "Amazon Lookout for Vision"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "AI/ML のユースケースと応用",
+      "question": "ある金融サービス会社が顧客から提出された様々な種類のフォームや文書からデータを抽出する必要があります。このプロセスを自動化するために使用すべきAWSサービスはどれですか？",
+      "options": [
+        "Amazon Textract",
+        "Amazon Comprehend",
+        "Amazon Transcribe",
+        "Amazon Polly"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "AWS AI サービス",
+      "question": "マーケティングチームが感情傾向を特定するために、複数の言語でソーシャルメディアからの顧客フィードバックを分析する必要があります。この作業に最も効率的なAWSサービスはどれですか？",
+      "options": [
+        "Amazon Translate",
+        "Amazon Comprehend",
+        "Amazon Transcribe",
+        "Amazon Kendra"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AWS AI サービス",
+      "question": "コンテンツ制作会社がチュートリアルビデオ用に、複数の言語でテキストコンテンツからリアルな音声を生成したいと考えています。どのAWSサービスを使用すべきですか？",
+      "options": [
+        "Amazon Transcribe",
+        "Amazon Polly",
+        "Amazon Lex",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "生成AI",
+      "question": "ソフトウェア開発会社がコード生成の支援、コードスニペットの説明、プログラミングの質問への回答ができるAI搭載アシスタントを実装したいと考えています。この要件に最も適したAWSサービスはどれですか？",
+      "options": [
+        "Amazon SageMaker Canvas",
+        "Amazon Bedrock",
+        "Amazon CodeWhisperer",
+        "Amazon Comprehend"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "生成AI",
+      "question": "ゲーム会社がプレイヤーと自然な会話ができる没入型NPC（ノンプレイヤーキャラクター）を構築したいと考えています。この生成AI機能の基盤を提供するAWSサービスはどれですか？",
+      "options": [
+        "Amazon Polly",
+        "Amazon Bedrock",
+        "Amazon Rekognition",
+        "Amazon Kendra"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "責任あるAI",
+      "question": "ある金融サービス会社がローン申請を評価するためのAIモデルを実装しています。公平性を確保するために、トレーニングデータの潜在的なバイアスを特定し軽減する必要があります。この懸念に対処するためのベストプラクティスはどれですか？",
+      "options": [
+        "モデルのトレーニングには人口統計データのみを使用する",
+        "より小さいが焦点を絞ったデータセットを収集する",
+        "潜在的なバイアスを避けるためにブラックボックスモデルを使用する",
+        "モデル開発中にバイアス検出と軽減を実施する"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "責任あるAI",
+      "question": "ある企業が重要なビジネス決定を行うAIシステムを開発しています。決定がどのように行われるかを説明できることの重要性を強調する責任あるAIの原則はどれですか？",
+      "options": [
+        "公平性",
+        "透明性",
+        "プライバシー",
+        "人間中心設計"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AWS AI サービス",
+      "question": "カスタマーサービス部門が一般的な顧客の問い合わせに対応し、注文状況の確認などのアクションを実行できるインテリジェントなチャットボットを実装したいと考えています。どのAWSサービスを使用すべきですか？",
+      "options": [
+        "Amazon Connect",
+        "Amazon Lex",
+        "Amazon Polly",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AWS サービスを活用したAIソリューション",
+      "question": "製造会社が故障が発生する前に潜在的な故障を予測するために、センサーデータを使用して機器の異常を検出したいと考えています。この予知保全ソリューションに最も適したAWSサービスの組み合わせはどれですか？",
+      "options": [
+        "Amazon Kinesis Data Streams、Amazon Lookout for Equipment、Amazon QuickSight",
+        "Amazon S3、Amazon Textract、Amazon Comprehend",
+        "Amazon Rekognition、AWS Lambda、Amazon DynamoDB",
+        "Amazon Connect、Amazon Lex、Amazon Polly"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "機械学習プロセス",
+      "question": "データサイエンティストが機械学習モデルを構築しようとしていますが、トレーニングデータの品質に懸念があります。モデルトレーニング前に対処すべき機械学習プロセスで最も重要なステップはどれですか？",
+      "options": [
+        "ハイパーパラメータの最適化",
+        "データの前処理と特徴量エンジニアリング",
+        "モデル選択",
+        "デプロイ戦略の計画"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "機械学習プロセス",
+      "question": "ある企業が顧客離れを予測する機械学習モデルをトレーニングしました。評価中に、モデルがトレーニングデータでは非常に良いパフォーマンスを示すが、新しいデータでは性能が低いことが分かりました。モデルが直面している可能性が高い問題は何ですか？",
+      "options": [
+        "アンダーフィッティング",
+        "オーバーフィッティング",
+        "データリーケージ",
+        "クラス不均衡"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AWS サービスを活用したAIソリューション",
+      "question": "小売企業がEコマースウェブサイト向けにパーソナライズされた商品レコメンデーションを実装したいと考えています。この目的に最も適したAWSサービスはどれですか？",
+      "options": [
+        "Amazon Personalize",
+        "Amazon Forecast",
+        "Amazon Comprehend",
+        "Amazon Kendra"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "AWS AI サービス",
+      "question": "メディア企業が検索や取得を容易にするために、大規模な画像アーカイブに自動的にタグ付けしカテゴライズする必要があります。どのAWSサービスを使用すべきですか？",
+      "options": [
+        "Amazon Textract",
+        "Amazon Rekognition",
+        "Amazon Lookout for Vision",
+        "Amazon Polly"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "生成AI",
+      "question": "マーケティングチームが各説明を手動で書かずに、製品説明の複数のバリエーションを作成したいと考えています。この生成AIのユースケースを最もよくサポートするAWSサービスはどれですか？",
+      "options": [
+        "Amazon Comprehend",
+        "Amazon Bedrock",
+        "Amazon Rekognition",
+        "Amazon Textract"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AI/ML のユースケースと応用",
+      "question": "物流会社が過去の配送データや天候や交通などの外部要因を分析して配送時間の見積もりを改善したいと考えています。この時系列予測の課題に最も適したAWSサービスはどれですか？",
+      "options": [
+        "Amazon Kendra",
+        "Amazon Forecast",
+        "Amazon QuickSight",
+        "Amazon Comprehend"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "AWS サービスを活用したAIソリューション",
+      "question": "医療機関が医療フォームから情報を抽出し、医療用語を理解し、患者データを安全に保存できるインテリジェントな文書処理システムを実装する必要があります。最も適切なAWSサービスの組み合わせはどれですか？",
+      "options": [
+        "Amazon Textract、Amazon Comprehend Medical、暗号化を適用したAmazon S3",
+        "Amazon Rekognition、Amazon Transcribe、Amazon DynamoDB",
+        "Amazon Lookout for Vision、Amazon Polly、Amazon RDS",
+        "Amazon Kendra、Amazon Lex、Amazon EFS"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "責任あるAI",
+      "question": "ある企業が顧客データを処理するAIシステムの導入を計画しています。プライバシーの懸念に対処するために、責任あるAIのベストプラクティスを表すアプローチはどれですか？",
+      "options": [
+        "モデルの精度を向上させるために可能な限り多くの顧客データを収集する",
+        "データ最小化の原則を適用し、必要なデータのみを収集する",
+        "将来のモデルトレーニングのためにすべてのデータを無期限に保存する",
+        "その有用性を最大化するためにチーム間でデータを自由に共有する"
+      ],
+      "answer": 1
+    }
+  ]
+}
