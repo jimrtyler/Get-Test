@@ -1,0 +1,436 @@
+{
+  "name": "ITIL 4 Foundation Practice Exam",
+  "questionCount": 40,
+  "timeLimit": 60,
+  "questions": [
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "Which definition BEST describes a service?",
+      "options": [
+        "A way to deliver value to customers by facilitating outcomes customers want to achieve without the customer having to manage specific costs and risks",
+        "A performance measurement that demonstrates the continual improvement of an IT department",
+        "A function of an organization that consists of people, processes, and technology",
+        "A collection of resources designed to complete various tasks as requested by the customer"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "What is a 'warranty' in service management?",
+      "options": [
+        "A legally binding agreement that services will meet expectations",
+        "Assurance that a product or service will meet agreed requirements",
+        "A contract that can be used in case of service failure",
+        "A document that describes acceptable service downtime"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "Which statement BEST describes the key focus of service relationship management?",
+      "options": [
+        "Establishing mechanisms to collect customer feedback about services",
+        "Identifying and managing third-party suppliers that provide services",
+        "Establishing and nurturing links between the organization and its stakeholders",
+        "Developing procedures for handling service complaints"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "What term describes 'A possible event that could cause harm or loss, or make it more difficult to achieve objectives'?",
+      "options": [
+        "Issue",
+        "Problem",
+        "Risk",
+        "Incident"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "Which ITIL guiding principle emphasizes using existing services, processes, and tools?",
+      "options": [
+        "Focus on value",
+        "Think and work holistically",
+        "Start where you are",
+        "Keep it simple and practical"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "Which guiding principle recommends making gradual improvements with frequent validation?",
+      "options": [
+        "Progress iteratively with feedback",
+        "Start where you are",
+        "Optimize and automate",
+        "Think and work holistically"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "Which guiding principle focuses on making work visible and working together?",
+      "options": [
+        "Progress iteratively with feedback",
+        "Focus on value",
+        "Collaborate and promote visibility",
+        "Keep it simple and practical"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "When considering the 'Optimize and automate' guiding principle, what should be done FIRST?",
+      "options": [
+        "Implement artificial intelligence solutions",
+        "Purchase automation software",
+        "Simplify and organize work before automating",
+        "Document all manual processes"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "Which of the four dimensions of service management is concerned with workflow coordination and controls?",
+      "options": [
+        "Organizations and people",
+        "Information and technology",
+        "Partners and suppliers",
+        "Value streams and processes"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "Which of the four dimensions of service management focuses on skills, competencies, roles, and responsibilities?",
+      "options": [
+        "Organizations and people",
+        "Information and technology",
+        "Partners and suppliers",
+        "Value streams and processes"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "Which of the four dimensions of service management considers contracts and agreements with third parties?",
+      "options": [
+        "Organizations and people",
+        "Information and technology",
+        "Partners and suppliers",
+        "Value streams and processes"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Service Value System",
+      "question": "Which component of the ITIL service value system provides a structured approach for organizations to determine improvements at all levels?",
+      "options": [
+        "Service value chain",
+        "Governance",
+        "Continual improvement",
+        "Guiding principles"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "Which service value chain activity ensures that products and services continually meet stakeholder expectations for quality, costs, and time to market?",
+      "options": [
+        "Plan",
+        "Improve",
+        "Engage",
+        "Design and transition"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "Which service value chain activity provides a good understanding of stakeholder needs, transparency, and continual engagement?",
+      "options": [
+        "Plan",
+        "Improve",
+        "Engage",
+        "Design and transition"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "Which service value chain activity ensures services meet agreed specifications?",
+      "options": [
+        "Deliver and support",
+        "Design and transition",
+        "Obtain/build",
+        "Plan"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the primary purpose of the incident management practice?",
+      "options": [
+        "To reduce the likelihood of incidents by identifying actual and potential causes of incidents",
+        "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible",
+        "To develop workarounds for known errors",
+        "To fulfill service requests from users"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the purpose of the problem management practice?",
+      "options": [
+        "To restore normal service operation as quickly as possible",
+        "To support the agreed quality of a service by handling all pre-defined, user-initiated service requests",
+        "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents",
+        "To ensure services deliver the performance agreed with the business customer"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is a known error in ITIL?",
+      "options": [
+        "A mistake made by a service desk analyst when logging an incident",
+        "A problem that has been analyzed but not resolved",
+        "An incident for which a root cause has not been identified",
+        "A problem that has been analyzed and has a documented root cause and workaround"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the primary purpose of the service desk practice?",
+      "options": [
+        "To analyze the root cause of incidents and provide workarounds",
+        "To authorize changes to service components",
+        "To capture demand for incident resolution and service requests",
+        "To ensure services are delivered according to agreed targets"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which practice ensures that accurate and reliable information about the configurations of services is available when and where it is needed?",
+      "options": [
+        "IT asset management",
+        "Service configuration management",
+        "Deployment management",
+        "Release management"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the MAIN purpose of the change enablement practice?",
+      "options": [
+        "To ensure all changes are logged in the configuration management database",
+        "To ensure changes are deployed successfully into production environments",
+        "To maximize the number of successful IT changes implemented",
+        "To ensure that risks are properly assessed and that changes are authorized and implemented in a controlled manner"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which practice is BEST described as the practice that identifies the current state of assets and the means to ensure that they remain operational?",
+      "options": [
+        "IT asset management",
+        "Service configuration management",
+        "Release management",
+        "Deployment management"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the purpose of the monitoring and event management practice?",
+      "options": [
+        "To ensure service requests from users are fulfilled",
+        "To detect changes in state that have significance for the management of IT services",
+        "To restore normal service operation after an incident",
+        "To analyze and report on collected data to inform decision-making"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is an incident in ITIL?",
+      "options": [
+        "An unplanned interruption to a service or reduction in the quality of a service",
+        "A cause of one or more incidents",
+        "A cause of one or more problems",
+        "A request from a user for information, advice, or for a standard change"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the purpose of the service level management practice?",
+      "options": [
+        "To ensure all service requests are handled efficiently",
+        "To ensure that services achieve their expected outcomes",
+        "To set clear business-based targets for service performance",
+        "To create a continual feedback loop to drive improvement initiatives"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is a configuration item?",
+      "options": [
+        "Any component of a product required for the product to function correctly",
+        "Any component that needs to be managed in order to deliver an IT service",
+        "An item of hardware, software, documentation, or other component procured rather than developed",
+        "A component of the IT infrastructure procured from third-party vendors"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the purpose of the continual improvement practice?",
+      "options": [
+        "To align the organization's practices and services with changing business needs through the ongoing improvement of services, practices, or any element involved in managing services",
+        "To ensure that changes to configuration items are properly planned and authorized",
+        "To protect information needed by the organization to conduct its business",
+        "To set targets and measure performance for services"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which step of the Continual Improvement Model asks 'Where are we now?'",
+      "options": [
+        "What is the vision?",
+        "Where do we want to be?",
+        "How do we get there?",
+        "What is the current state?"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the purpose of the service request management practice?",
+      "options": [
+        "To handle service disruptions and restore normal service operation",
+        "To support the agreed quality of a service by handling all pre-defined, user-initiated service requests",
+        "To establish and nurture the links between the organization and its stakeholders",
+        "To manage and control the way new or changed components are deployed to live environments"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which practice is responsible for moving new or changed hardware, software, documentation, processes, or any other component to live environments?",
+      "options": [
+        "Release management",
+        "Deployment management",
+        "Change enablement",
+        "Service configuration management"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the main purpose of information security management practice?",
+      "options": [
+        "To protect information assets from unauthorized access",
+        "To ensure backup and recovery processes are working",
+        "To create information classification policies and standards",
+        "To protect the information needed by the organization to conduct its business"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the purpose of relationship management practice?",
+      "options": [
+        "To manage supplier performance and contracts",
+        "To establish and nurture links between the organization and its stakeholders",
+        "To manage services provided by third parties",
+        "To identify customer requirements for services"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which practice has the purpose of ensuring that the organization's suppliers and their performance are managed appropriately to support the provision of seamless quality products and services?",
+      "options": [
+        "Relationship management",
+        "Service level management",
+        "Supplier management",
+        "Contract management"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which is a key activity of the service desk practice?",
+      "options": [
+        "Investigating the root cause of incidents",
+        "Negotiating service level agreements",
+        "Logging and managing incidents and service requests",
+        "Authorizing changes to the IT infrastructure"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "What is the definition of utility in the context of service value?",
+      "options": [
+        "The functionality offered by a product or service to meet a particular need",
+        "The total cost of using a service, including the purchase price",
+        "The assurance that a product or service will meet agreed requirements",
+        "The level of support provided for a particular service"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "Which term refers to the individuals responsible for authorizing budget for service consumption?",
+      "options": [
+        "User",
+        "Customer",
+        "Sponsor",
+        "Service owner"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which practice is responsible for making new and changed services and features available for use?",
+      "options": [
+        "Service level management",
+        "Release management",
+        "Change enablement",
+        "Deployment management"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "Which guiding principle emphasizes the direct and indirect costs of service provision?",
+      "options": [
+        "Focus on value",
+        "Think and work holistically",
+        "Keep it simple and practical",
+        "Start where you are"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Service Value System",
+      "question": "Which component of the ITIL service value system represents activities undertaken by the organization to deliver products and services?",
+      "options": [
+        "Governance",
+        "Service value chain",
+        "Practices",
+        "Continual improvement"
+      ],
+      "answer": 1
+    }
+  ]
+}
