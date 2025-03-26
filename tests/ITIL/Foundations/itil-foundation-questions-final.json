@@ -1,0 +1,227 @@
+{
+  "name": "ITIL 4 Foundation Practice Exam - Final Set",
+  "questionCount": 20,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "domain": "ITIL Service Value System",
+      "question": "Which component of the service value system directly receives demands and opportunities from the external environment?",
+      "options": [
+        "Governance",
+        "Service value chain",
+        "Practices",
+        "Guiding principles"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "In which service value chain activity would you create a roadmap for service improvements?",
+      "options": [
+        "Plan",
+        "Improve",
+        "Engage",
+        "Design and transition"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which practice is responsible for maintaining relationships with external service providers?",
+      "options": [
+        "Service desk",
+        "Service level management",
+        "Supplier management",
+        "Relationship management"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "When applying the service level management practice, what document defines the specific targets for service performance?",
+      "options": [
+        "Service improvement plan",
+        "Service level agreement",
+        "Operational level agreement",
+        "Service catalog"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which of the following is the PRIMARY function of a service desk?",
+      "options": [
+        "Implementing changes",
+        "Managing suppliers",
+        "Providing a single point of contact for users",
+        "Creating service level agreements"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the main difference between 'change control' and 'release management'?",
+      "options": [
+        "Change control assesses and authorizes changes while release management makes new and changed services available for use",
+        "Change control is focused on business changes while release management focuses on IT changes",
+        "Change control is a technical practice while release management is a strategic practice",
+        "Change control is reactive while release management is proactive"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the CORRECT sequence of activities in the continual improvement model?",
+      "options": [
+        "Assess current state, identify vision, implement plan, review results",
+        "Create vision, analyze current state, implement improvements, review results",
+        "Identify vision, understand current state, determine improvements needed, take action, sustain improvement",
+        "Define problem, identify current state, create solution, implement plan, verify results"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "Which is NOT a benefit of applying the 'keep it simple and practical' guiding principle?",
+      "options": [
+        "Easier to understand processes",
+        "More efficient use of resources",
+        "Comprehensive documentation of all possible scenarios",
+        "Faster implementation of improvements"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "What is the main concern of the 'Organizations and people' dimension?",
+      "options": [
+        "Technical infrastructure and applications",
+        "Formal organizational structures and culture",
+        "Relationships with other organizations",
+        "Workflows and controls"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "Which is an example of 'utility' for an email service?",
+      "options": [
+        "The service is available 99.9% of the time",
+        "Users can send and receive messages",
+        "The service provider offers 24/7 support",
+        "The service has backup systems in place"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "What is the relationship between 'outputs' and 'outcomes' in service management?",
+      "options": [
+        "Outputs are tangible results, while outcomes are the effects of the outputs that enable value creation",
+        "Outputs are always valuable, while outcomes may have negative impacts",
+        "Outputs are user-focused, while outcomes are provider-focused",
+        "Outputs happen after outcomes have been achieved"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the main purpose of problem management?",
+      "options": [
+        "To restore normal service operation as quickly as possible",
+        "To prevent problems and resulting incidents from happening",
+        "To fulfill user service requests",
+        "To manage changes to the IT infrastructure"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which ITIL practice is responsible for ensuring an organization complies with regulatory requirements?",
+      "options": [
+        "Service level management",
+        "Information security management",
+        "Risk management",
+        "Supplier management"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "In which service value chain activity would you perform user acceptance testing?",
+      "options": [
+        "Plan",
+        "Design and transition",
+        "Obtain/build",
+        "Deliver and support"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Service Value System",
+      "question": "How do 'practices' fit into the ITIL service value system?",
+      "options": [
+        "They provide direction and oversight at all levels of the organization",
+        "They represent the activities the organization undertakes to facilitate value creation",
+        "They are sets of organizational resources designed for performing specific work",
+        "They are the entry points where demands for services are received"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is a key difference between incident management and service request management?",
+      "options": [
+        "Incident management is unplanned work, while service request management is planned work",
+        "Incident management is reactive, while service request management is never reactive",
+        "Incident management deals with problems, while service request management deals with changes",
+        "Incident management is for external customers, while service request management is for internal users"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "Which guiding principle emphasizes delivering smaller changes more frequently to provide faster value?",
+      "options": [
+        "Focus on value",
+        "Start where you are",
+        "Progress iteratively with feedback",
+        "Think and work holistically"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "Which external factor affects all four dimensions of service management?",
+      "options": [
+        "Political environment",
+        "Technological advances",
+        "Legal regulations",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the relationship between the service desk and other ITIL practices?",
+      "options": [
+        "The service desk operates independently from other practices",
+        "The service desk coordinates with incident management only",
+        "The service desk is a central point of contact for users and works with many other practices",
+        "The service desk only handles service requests, not incidents"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which is a key activity in the service configuration management practice?",
+      "options": [
+        "Performing root cause analysis",
+        "Maintaining accurate configuration information",
+        "Creating service level agreements",
+        "Managing supplier contracts"
+      ],
+      "answer": 1
+    }
+  ]
+}
