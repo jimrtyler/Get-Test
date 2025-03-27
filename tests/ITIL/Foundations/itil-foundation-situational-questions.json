@@ -1,0 +1,227 @@
+{
+  "name": "ITIL 4 Foundation Situational Practice Exam",
+  "questionCount": 20,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "domain": "ITIL Practices - Incident Management",
+      "question": "A software developer reports that a production application is running slowly for all users. The service desk agent logs this issue and assigns it to the technical support team for immediate resolution. What ITIL term BEST describes this issue?",
+      "options": [
+        "Problem",
+        "Service request",
+        "Incident",
+        "Known error"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices - Problem Management",
+      "question": "A university IT department notices that the student registration system crashes every day at noon. After investigation, they discover this happens because too many students try to log in at the same time. They document this issue and implement a temporary solution to increase server capacity during peak times. What ITIL term BEST describes what they have created?",
+      "options": [
+        "Incident record",
+        "Known error record",
+        "Change request",
+        "Service request"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices - Service Request Management",
+      "question": "A new employee at a financial company needs access to the customer database. She contacts the IT department to set up her permissions. How should this be handled according to ITIL best practices?",
+      "options": [
+        "As an incident because the employee cannot access a required system",
+        "As a problem because multiple new employees might need similar access",
+        "As a service request because it is a standard, pre-approved change",
+        "As an emergency change because the employee needs to start working immediately"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices - Change Enablement",
+      "question": "An e-commerce company's payment system fails during a busy shopping season. The operations team identifies a critical software bug and proposes an immediate fix. What type of change is this?",
+      "options": [
+        "Standard change",
+        "Normal change",
+        "Emergency change",
+        "Service request"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "A healthcare organization is implementing a new patient management system. The project team wants to completely replace the old system immediately. A consultant recommends starting with one department, gathering feedback, and then gradually rolling out to other departments. Which ITIL guiding principle is the consultant applying?",
+      "options": [
+        "Focus on value",
+        "Start where you are",
+        "Progress iteratively with feedback",
+        "Think and work holistically"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "A manufacturing company has an existing inventory management system that users complain is outdated. The IT manager wants to evaluate whether to improve the current system or replace it entirely. What is the FIRST step the IT manager should take according to ITIL guiding principles?",
+      "options": [
+        "Purchase a new system with the latest features",
+        "Assess the current system to determine what can be reused",
+        "Create a detailed plan for system replacement",
+        "Outsource inventory management to a third-party provider"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "A retail company receives customer feedback requesting a mobile app for shopping. The company begins by holding meetings with stakeholders to understand requirements and discussing potential solutions. Which service value chain activity is being performed?",
+      "options": [
+        "Plan",
+        "Improve",
+        "Engage",
+        "Design and transition"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "A telecommunications company is preparing to launch a new service. They are currently testing the service components, creating documentation, and training support staff. Which service value chain activity is being performed?",
+      "options": [
+        "Plan",
+        "Engage",
+        "Design and transition",
+        "Obtain/build"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "A government agency is implementing a new citizen service portal. They're focusing on team structure, staff skills, training needs, and organizational culture changes. Which dimension of service management are they primarily addressing?",
+      "options": [
+        "Organizations and people",
+        "Information and technology",
+        "Partners and suppliers",
+        "Value streams and processes"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "A bank is outsourcing its helpdesk services to a third-party provider. They're developing contracts, performance metrics, and communication channels with the provider. Which dimension of service management are they primarily addressing?",
+      "options": [
+        "Organizations and people",
+        "Information and technology",
+        "Partners and suppliers",
+        "Value streams and processes"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices - Service Desk",
+      "question": "A multinational corporation has offices across several time zones. Users complain that IT support is only available during headquarters business hours. What service desk model would BEST address this issue?",
+      "options": [
+        "Centralized service desk",
+        "Local service desk",
+        "Virtual service desk",
+        "Follow-the-sun service desk"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices - Continual Improvement",
+      "question": "A software company has completed an improvement initiative to reduce application response time. The response time has decreased from 3 seconds to 1 second, meeting their target. What is the NEXT step they should take in the continual improvement model?",
+      "options": [
+        "How do we get there?",
+        "Where do we want to be?",
+        "Did we get there?",
+        "How do we keep the momentum going?"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices - Service Level Management",
+      "question": "A cloud service provider is experiencing customer complaints about service availability. The IT director wants to establish clear, measurable targets for the service. What should be created FIRST?",
+      "options": [
+        "An operational level agreement (OLA)",
+        "A service level agreement (SLA)",
+        "A service catalog",
+        "A known error database"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices - Information Security Management",
+      "question": "A healthcare organization discovers that patient data was accessed by an unauthorized employee. Which practice should PRIMARILY handle this incident?",
+      "options": [
+        "Service level management",
+        "Information security management",
+        "Relationship management",
+        "IT asset management"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "A technology company launches a new application that allows users to edit documents online. The application functions correctly but frequently experiences downtime. What aspect of service value is MOST lacking?",
+      "options": [
+        "Utility",
+        "Warranty",
+        "Cost",
+        "Risk"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "A university IT department has created a complex process for handling student password resets that involves three different teams and multiple approval steps. Students complain that it takes too long. Which guiding principle should be applied?",
+      "options": [
+        "Focus on value",
+        "Start where you are",
+        "Keep it simple and practical",
+        "Progress iteratively with feedback"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices - Supplier Management",
+      "question": "A manufacturing company discovers that a critical component supplier consistently delivers late, affecting production schedules. Which practice should address this issue?",
+      "options": [
+        "Service request management",
+        "Incident management",
+        "Supplier management",
+        "Change enablement"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Service Value System",
+      "question": "A financial institution is undergoing a digital transformation. The CIO wants to ensure all changes align with business goals and meet regulatory requirements. Which component of the service value system addresses this concern?",
+      "options": [
+        "Service value chain",
+        "Practices",
+        "Continual improvement",
+        "Governance"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices - Monitoring and Event Management",
+      "question": "A telecommunications company implements a system that automatically detects when network bandwidth reaches 90% capacity and sends alerts to the operations team. Which practice does this BEST represent?",
+      "options": [
+        "Problem management",
+        "Service level management",
+        "Monitoring and event management",
+        "Incident management"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices - Release Management",
+      "question": "A software company has developed several new features for their accounting application. They decide to bundle these features and make them available to customers in a coordinated manner. Which practice is PRIMARILY responsible for this activity?",
+      "options": [
+        "Change enablement",
+        "Deployment management",
+        "Release management",
+        "Service configuration management"
+      ],
+      "answer": 2
+    }
+  ]
+}
