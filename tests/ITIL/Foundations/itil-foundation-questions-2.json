@@ -1,0 +1,227 @@
+{
+  "name": "ITIL 4 Foundation Practice Exam - Additional Set",
+  "questionCount": 20,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "Which of the following BEST describes the concept of 'service consumption'?",
+      "options": [
+        "The process of developing new services",
+        "The activities performed by an organization to deliver services",
+        "The activities performed by a service consumer to use services",
+        "The management of third-party service providers"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Key Concepts of Service Management",
+      "question": "Which term is defined as 'a person who authorizes budget for service consumption'?",
+      "options": [
+        "Customer",
+        "User",
+        "Sponsor",
+        "Service owner"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "When applying the 'Focus on value' guiding principle, what should an organization continuously consider?",
+      "options": [
+        "What technology to implement",
+        "Who will be performing the activities",
+        "How activities contribute to value creation",
+        "Where the activities will be performed"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "When applying the 'Start where you are' guiding principle, what should be done with existing services, processes, and tools?",
+      "options": [
+        "Always replace them with new ones",
+        "Always keep them as they are",
+        "Measure them before deciding what to keep",
+        "Document them in extensive detail"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Guiding Principles",
+      "question": "Which guiding principle suggests that visibility helps eliminate waste and creates a deeper understanding of work?",
+      "options": [
+        "Focus on value",
+        "Start where you are",
+        "Collaborate and promote visibility",
+        "Keep it simple and practical"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "Which dimension of service management includes roles, responsibilities, and systems of authority?",
+      "options": [
+        "Organizations and people",
+        "Information and technology",
+        "Partners and suppliers",
+        "Value streams and processes"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "Which dimension of service management ensures knowledge is available to the right people at the right time?",
+      "options": [
+        "Organizations and people",
+        "Information and technology",
+        "Partners and suppliers",
+        "Value streams and processes"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "Four Dimensions of Service Management",
+      "question": "What happens if one dimension of service management is overlooked when designing services?",
+      "options": [
+        "It will have no significant impact",
+        "Services will still be effective but more expensive",
+        "Services may not deliver expected value",
+        "The organization will need to hire more staff"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Service Value System",
+      "question": "Which component of the ITIL service value system enables the creation of multiple value streams?",
+      "options": [
+        "Service value chain",
+        "Governance",
+        "Guiding principles",
+        "Continual improvement"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Service Value System",
+      "question": "Which component of the service value system helps organizations incorporate feedback into improvement planning?",
+      "options": [
+        "Governance",
+        "Service value chain",
+        "Practices",
+        "Continual improvement"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "Which service value chain activity ensures products meet specifications and stakeholder expectations?",
+      "options": [
+        "Plan",
+        "Design and transition",
+        "Obtain/build",
+        "Deliver and support"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Service Value Chain",
+      "question": "Which service value chain activity BEST describes user support and incident resolution?",
+      "options": [
+        "Plan",
+        "Engage",
+        "Obtain/build",
+        "Deliver and support"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the main purpose of the relationship management practice?",
+      "options": [
+        "Managing contracts with external service providers",
+        "Establishing and nurturing links between the organization and its stakeholders",
+        "Handling incidents and service requests from users",
+        "Managing service level agreements"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which practice is responsible for managing risks and ensuring security compliance?",
+      "options": [
+        "Service level management",
+        "Information security management",
+        "Service configuration management",
+        "Monitoring and event management"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which practice involves tracking the operational state of services and infrastructure?",
+      "options": [
+        "Monitoring and event management",
+        "Service level management",
+        "Service desk",
+        "Information security management"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the correct order of the first three steps in the continual improvement model?",
+      "options": [
+        "Where are we now?, What is the vision?, Where do we want to be?",
+        "What is the vision?, Where are we now?, Where do we want to be?",
+        "Where do we want to be?, Where are we now?, How do we get there?",
+        "How do we get there?, Take the action, Did we get there?"
+      ],
+      "answer": 1
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which best describes the purpose of the deployment management practice?",
+      "options": [
+        "To ensure services meet agreed specifications",
+        "To ensure services are delivered according to agreed levels",
+        "To move new or changed hardware, software, documentation to live environments",
+        "To ensure changes are properly assessed"
+      ],
+      "answer": 2
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is NOT typically included in problem management?",
+      "options": [
+        "Root cause analysis",
+        "Known error identification",
+        "Error control",
+        "Direct user support"
+      ],
+      "answer": 3
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "What is the primary difference between an operational level agreement (OLA) and a service level agreement (SLA)?",
+      "options": [
+        "OLAs define targets between different teams within the service provider organization, while SLAs are between the service provider and external customers",
+        "OLAs are for external suppliers while SLAs are for internal teams",
+        "OLAs define the strategic goals while SLAs define operational targets",
+        "OLAs are used for critical services while SLAs are used for non-critical services"
+      ],
+      "answer": 0
+    },
+    {
+      "domain": "ITIL Practices",
+      "question": "Which statement best describes the relationship between change enablement and other practices?",
+      "options": [
+        "Change enablement operates independently of other practices",
+        "Change enablement integrates with many other practices including service configuration management and release management",
+        "Change enablement only affects the infrastructure management practices",
+        "Change enablement is purely a strategic practice with no operational components"
+      ],
+      "answer": 1
+    }
+  ]
+}
